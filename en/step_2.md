@@ -22,7 +22,7 @@ What langauge does the respondent speak?
 
 --- task ---
 
-+ Choose the respondent's language i.e. the langaue you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
++ Choose the respondent's language i.e. the language you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
 
 --- /task ---
 
