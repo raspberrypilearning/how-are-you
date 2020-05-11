@@ -44,7 +44,6 @@ say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate 
 ```blocks3
 say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
 ```
-
 + If you like, change the tone of the voice so it  represents you.
 ```blocks3
 set voice to [tenor v] ::tts
