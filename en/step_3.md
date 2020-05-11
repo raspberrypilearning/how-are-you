@@ -40,6 +40,6 @@ say ( translate (answer) to (English v) ::translate ) for (2) seconds
 
 --- task ---
 
-+ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project  link or seach for the [How are you] (https://projects.raspberrypi.org/en) project.
++ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project  link or seach for the [How are you] (https://learning-admin.raspberrypi.org/en/projects/how-are-you) project.
 
 --- /task ---
