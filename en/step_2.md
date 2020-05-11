@@ -1,4 +1,10 @@
-Open the starter Scratch project either online at rpf.io/how-are-you-on.
+Open the 'How are you?' starter Scratch project online at rpf.io/how-are-you-on.
+
+If you have a Scratch account you can make a copy by clicking Remix.
+
+Offline: open the starter project in the offline editor.
+
+If you need to download and install the Scratch offline editor, you can find it at ?
 
 You should see a little yellow dot on a white background. We really need you to jazz things up! Click the green flag to run  the starter project.
 
