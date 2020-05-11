@@ -1,4 +1,4 @@
-Open the starter Scratch project either online at rpf.io/how or download the starer project at rpf.io/p/en/how-are-you
+Open the starter Scratch project either online at rpf.io/how-are-you-on.
 
 You should see a little yellow dot on a white background. We really need you to jazz things up! Click the green flag to run  the starter project.
 
@@ -20,7 +20,7 @@ What langauge does the respondent speak?
 
 --- task ---
 
-+ Open the Code Editor and delete the message that is there. Type in your message.
++ Open the code editor and delete the message that is there. Type in your message.
 
 + Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
@@ -72,7 +72,7 @@ Run the program to see if the callout looks like you are speaking.
 
 ## Nine more to go!
 
-In this project you experienced two Scratch Extension Blocks: Translate and Text to Speech. There are another nine more to get to know! Why not begin to explore them.
+In this project you experienced two Scratch Extension Blocks: Translate and Text to Speech. There are another nine more to get to know! Why not begin to explore them? 
 
 ![Extension Blocks tab](images/extension-blocks.png)
 
