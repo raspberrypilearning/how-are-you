@@ -28,11 +28,9 @@ What langauge does the respondent speak?
 
 --- task ---
 
-Choose the respondent's language i.e. the language you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
++ Choose the respondent's language i.e. the language you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
 
 --- /task ---
-
-+ Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
 ```blocks3
 when flag clicked
@@ -40,7 +38,7 @@ set voice to [tenor v] ::tts
 (translate [How are things going in Palenstine?] to [Arabic v] ::translate) ::tts
 say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
 ```
---- /task ---
++ Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
 --- task ---
 
