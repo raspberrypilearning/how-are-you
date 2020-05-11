@@ -1,20 +1,14 @@
 ## Introduction
 
-Add project description here. What will learners be making?
+Have you ever wondered how people are doing but, because you don’t speak their language, you can't ask them?
+
+Make an e-card for family, friends or peers across the world who speak a different language. Add a selfie so it looks like you're speaking in their mother tongue!
+
+Hey, you'll seem billingual or even trilingual. Impressive!
 
 ### What you will make
 
---- no-print ---
-Add instructions for using the embedded content here.
-
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
-
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+![e-card](images/e-card.png)
 
 --- collapse ---
 ---
@@ -22,17 +16,19 @@ title: What you will need
 ---
 ### Hardware
 
-+ Describe hardware here
++ A computer capable of running Scratch
 
 ### Software
 
-+ Scratch 2.0 (either [online](http://rpf.io/scratchon) or [offline](http://rpf.io/scratchoff))
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
++ Scratch 3 (either online or offline)
+
+### Additional craft materials
+
++ None
 
 ### Downloads
 
-+ [rpf.io/project-name-go](http://rpf.io/project-name-go){:target="_blank"}
++ None
 
 --- /collapse ---
 
@@ -41,8 +37,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Two or three learning objectives
-+ ...should go here
++ Use two Scratch Extension Blocks: Translate and Text to Speech.
++ Use the Camera option to create a selfie.
 
 --- /collapse ---
 
@@ -51,8 +47,6 @@ title: What you will learn
 title: Additional information for educators
 ---
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/project-name/print){:target="_blank"}.
-
-[Here is a link to the resources for this project](http://rpf.io/project-name-go).
+If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/how-are-you-?/print){:target="_blank"}.
 
 --- /collapse ---
