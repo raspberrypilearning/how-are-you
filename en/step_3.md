@@ -4,7 +4,7 @@
 
 --- task ---
 
-+ To do this, you will need to add two extra blocks of code to 'You' Sprite. These blocks will let the respondent know that they can reply by clicking the character. 
++ To do this, you will need to add two extra blocks of code to 'You' sprite. The blocks will let the respondent know that they can reply by clicking the character. 
 
 + Don't forget to select the respondent's language again.
 
@@ -17,11 +17,11 @@ say ( translate [Please answer by clicking the character.] to (Arabic v) ::trans
 
 --- task ---
 
-+ Now select the Sprite 'Respondent'.
++ Now select the sprite 'Respondent'.
 
 !['From' program](images/choose-sprite-Respondent.png)
 
-+ In the Code Area, change the language option. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
++ In the code area, change the language option. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 
 ```blocks3
 when this sprite clicked
@@ -34,12 +34,12 @@ say ( translate (answer) to (English v) ::translate ) for (2) seconds
 
 --- task ---
 
-+ Optional: change the look of the Sprite 'Respondent'. Select the Sprite, click on Costumes tab and select Choose a Costume. Can you find a Sprite that looks like or represents the respondent?!
++ Optional: change the look of the sprite 'Respondent'. Select the sprite, click on its Costumes tab and select Choose a Costume. Can you find a sprite that looks like or represents the respondent?!
 
 --- /task ---
 
 --- task ---
 
-+ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project  link or seach for the [How are you] (https://learning-admin.raspberrypi.org/en/projects/how-are-you) project.
++ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project link or search for the [How are you] (https://learning-admin.raspberrypi.org/en/projects/how-are-you) project.
 
 --- /task ---
