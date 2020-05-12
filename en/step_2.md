@@ -1,14 +1,10 @@
 **Online**: Open the 'How are you?' starter Scratch project online at [rpf.io/how-are-you-on](http://rpf.io/how-are-you-on){:target="_blank"}
 
-If you have a Scratch account you can make a copy by clicking Remix.
-
-Offline: open the starter project in the offline editor.
-
-If you need to download and install the Scratch offline editor, you can find it at ?
+If you have a Scratch account you can make a copy by clicking **Remix**.
 
 You should see a little yellow dot on a white background. We really need you to jazz things up! 
 
-Click the green flag to run  the starter project. It should sound and read like double-dutch! It is infact Arabic. Read on to find out  what's being said.
+Click the green flag to run the project. It will sound and read like double-dutch! It is infact Arabic. Read on to find out  what's being said.
 
 <div>
 <iframe src="https://scratch.mit.edu/projects/390185573/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
