@@ -1,4 +1,4 @@
-**Online**: Open the 'How are you?' starter Scratch project online at [rpf.io/how-are-you-on]. (http://rpf.io/how-are-you-on {:target="_blank"}
+**Online**: Open the 'How are you?' starter Scratch project online at [rpf.io/how-are-you-on] (http://rpf.io/how-are-you-on) {:target="_blank"}
 
 If you have a Scratch account you can make a copy by clicking Remix.
 
