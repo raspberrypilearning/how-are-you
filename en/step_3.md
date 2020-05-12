@@ -1,17 +1,18 @@
 
 ## Receive a message back
-+ The respondent wants to reply to your message. Modify the program so they can message you back.
+The respondent wants to reply to your message. Modify the program so they can message you back.
 
 --- task ---
 
-+ To do this, you will need to add two extra blocks of code to 'You' sprite. The blocks will let the respondent know that they can reply by clicking the character. 
++ To do this, you will need to attach two extra blocks of code to sprite 'You'. The blocks will let the respondent know that they can reply by clicking the character. 
 
-+ Don't forget to select the respondent's language again.
++ Select sprite 'You' and attached the blocks below to the bottom of program. 
 
 ```blocks3
 say ( translate [Please answer by clicking the character.] to (Arabic v) ::translate ) for (4) seconds
 (translate [Please answer by clicking the character.] to [Arabic v] ::translate) ::tts
 ```
++ Don't forget to select the respondent's language again.
 
 --- /task ---
 
@@ -40,6 +41,6 @@ say ( translate (answer) to (English v) ::translate ) for (2) seconds
 
 --- task ---
 
-+ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project link or search for the [How are you] (https://learning-admin.raspberrypi.org/en/projects/how-are-you) project.
++ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project link or search for [How are you](https://rpf.io/how-are-you-on) project.
 
 --- /task ---
