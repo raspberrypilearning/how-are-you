@@ -32,7 +32,7 @@ set voice to [tenor v] ::tts
 (translate [How are things going in Palenstine?] to [Arabic v] ::translate) ::tts
 say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
 ```
-+ Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
+Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
 --- task ---
 
@@ -48,7 +48,7 @@ set voice to [tenor v] ::tts
 
 ## Take a selfie
 
-+ As the message is from you, why not take a selfie so that it looks like you’re the one speaking and typing the message?
+As the message is from you, why not take a selfie so that it looks like you’re the one speaking and typing the message?
 
 --- task ---
 + Go to Stage. Select the Backdrop tab.
