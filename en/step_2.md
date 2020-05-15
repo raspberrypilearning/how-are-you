@@ -21,7 +21,6 @@ What langauge does the respondent speak?
 + Open the code editor. In the current message you are saying "How are things going in Palenstine?". Delete the message that is there and type in your own personal message.
 
 + Choose the respondent's language i.e. the language you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
---- /task ---
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
@@ -29,7 +28,7 @@ set voice to [tenor v] ::tts
 say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
 ```
 Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
-
+--- /task ---
 --- task ---
 
 + If your message is long, you may need to change the value of how long your message is shown for. Why not run the program again to check if the timing fits.
