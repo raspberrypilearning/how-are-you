@@ -1,5 +1,5 @@
 title: how-are-you
-hero_image: introduction.png
+hero_image: images/introduction.png
 description: how-are-you description
 version: 4
 listed: false
@@ -8,5 +8,5 @@ last_tested: "2020-05-11"
 steps:
   - title: Introduction
   - title: Translate your message
-  - title: 'Challenge: Receive a message back'
-  - title: 'What's next'
+  - title: "Challenge: Receive a message back"
+  - title: "What's next"
