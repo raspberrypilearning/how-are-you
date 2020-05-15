@@ -17,13 +17,12 @@ say ( translate [Please answer by clicking the character.] to (Arabic v) ::trans
 --- /task ---
 
 --- task ---
-
 + Now select the sprite 'Respondent'.
 
-!['From' program](images/choose-sprite-Respondent.png)
++ To see the Respondent, you also need to  switch the show 'eye' on.
+!['Respondent' sprite](images/show-Respondent.png)
 
 + In the code area, change the language option. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
-
 ```blocks3
 when this sprite clicked
 set voice to [squeak v] ::tts
@@ -35,7 +34,8 @@ say ( translate (answer) to (English v) ::translate ) for (2) seconds
 
 --- task ---
 
-+ Optional: change the look of the sprite 'Respondent'. Select the sprite, click on its Costumes tab and select Choose a Costume. Can you find a sprite that looks like or represents the respondent?!
++ Change the look of the sprite 'Respondent' so it looks more like your family, friend or peer. Select the sprite, click on its Costumes tab and select one of the available costumes to represents the respondent.
+!['Respondent' sprite](images/choose-Respondent-costume.png)
 
 --- /task ---
 
