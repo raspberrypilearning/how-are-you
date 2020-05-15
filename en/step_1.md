@@ -8,7 +8,7 @@ Hey, you'll seem billingual or even trilingual. Impressive!
 
 ### What you will make
 
-![e-card](images/e-card.png)
+![e-card](images/introduction.png)
 
 --- collapse ---
 ---
@@ -38,7 +38,7 @@ title: What you will learn
 ---
 
 + Use two Scratch Extension Blocks: Translate and Text to Speech.
-+ Use the Camera option to create a selfie.
++ Choose a Sprite to respresent yourself.
 
 --- /collapse ---
 
