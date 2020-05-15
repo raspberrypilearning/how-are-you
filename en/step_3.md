@@ -4,9 +4,9 @@ The respondent wants to reply to your message. Modify the program so they can me
 
 --- task ---
 
-+ To do this, you will need to attach two extra blocks of code to sprite 'You'. The blocks will let the respondent know that they can reply by clicking the character. 
++ To do this, you will need to attach two extra blocks of code to sprite 'You'. The blocks will let the respondent know that they can reply by clicking their sprite (which we've yet to make appear). 
 
-+ Select sprite 'You' and attache the blocks below to the bottom of program. 
++ Select sprite 'You' and attach the blocks below to the bottom of program. 
 
 ```blocks3
 say ( translate [Please answer by clicking the character.] to (Arabic v) ::translate ) for (4) seconds
@@ -19,7 +19,7 @@ say ( translate [Please answer by clicking the character.] to (Arabic v) ::trans
 --- task ---
 + Now select the sprite 'Respondent'.
 
-+ To see the Respondent, you also need to switch the show 'eye' on.
++ To see the Respondent, you also need to switch their show 'eye' on.
 !['Respondent' sprite](images/show-Respondent.png)
 
 + In the code area, change the language option. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
@@ -34,7 +34,7 @@ say ( translate (answer) to (English v) ::translate ) for (2) seconds
 
 --- task ---
 
-+ Change the look of the sprite 'Respondent' so it looks more like the Respondent = your family member, friend or peer. Select the sprite, click on the Costumes tab and select one of the available costumes to represents them.
++ Change the look of the sprite 'Respondent' so it looks more like the Respondent i.e. your family member, friend or peer. Select the sprite, click on the Costumes tab and select one of the available costumes to represents them.
 !['Respondent' sprite](images/choose-Respondent-costume.png)
 
 --- /task ---
