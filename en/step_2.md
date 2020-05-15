@@ -48,7 +48,7 @@ set voice to [tenor v] ::tts
 
 ## Change your sprite
 
-![Access Stage](images/you.png)
+![Access You](images/you.png)
 
 As the message is from you, why not make sure the sprite looks a bit like you? It will then appear that you’re the one speaking and typing the message!
 
@@ -57,15 +57,15 @@ As the message is from you, why not make sure the sprite looks a bit like you? I
 
 + Run the program to see you are speaking.
 
-![Access Stage](images/Costumes.png)
+![Access Costumes](images/Costumes.png)
 
 --- /task ---
 
 --- task ---
 
-+ Fancy a backdrop? It's a little bit too white! Got to 'Choose a Backdrop'. There's loads from the gallery to choose from.
++ Fancy a backdrop? It's a little bit too white! Go to 'Choose a Backdrop'. There's loads from the gallery to choose from.
 
-![Access Camera](images/Choose a Backdrop.png)
+![Access Choose a Backdrop](images/Choose a Backdrop.png)
 
 --- /task ---
 
