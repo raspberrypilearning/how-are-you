@@ -28,8 +28,6 @@ set voice to [tenor v] ::tts
 say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
 ```
 Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
---- /task ---
---- task ---
 
 + If your message is long, you may need to change the value of how long your message is shown for. Why not run the program again to check if the timing fits.
 ```blocks3
@@ -55,10 +53,10 @@ As the message is from you, why not make sure the sprite looks a bit like you? I
 ![Access Costumes](images/Costumes.png)
 
 --- /task ---
-
+## Choose  a Backdrop
 --- task ---
 
-+ Fancy a backdrop? The current one's little too white! Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
++ The current backdrop is little too white! Fancy a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
 
 ![Access Choose a Backdrop](images/Choose a Backdrop.png)
 
