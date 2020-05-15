@@ -48,7 +48,7 @@ As the message is from you, why not make sure the sprite looks a bit like you? I
 --- task ---
 + Go to Costumes. Select, by highlighting, one of the ten cosutmes available. The sprite should have automatically changed.
 
-+ Run the program to see and hear yourself are speaking another langauge. Impressive!
++ Run the program to see and hear yourself speaking another langauge. Impressive!
 
 ![Access Costumes](images/Costumes.png)
 
