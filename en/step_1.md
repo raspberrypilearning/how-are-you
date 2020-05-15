@@ -2,7 +2,7 @@
 
 Have you ever wondered how people are doing but, because you don’t speak their language, you can't ask them?
 
-Make an e-card for family, friends or peers across the world who speak a different language. Add a selfie so it looks like you're speaking in their mother tongue!
+Make an e-card for family, friends or peers across the world who speak a different language. Change the sprite so it looks like you're speaking in their mother tongue!
 
 Hey, you'll seem billingual or even trilingual. Impressive!
 
