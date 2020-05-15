@@ -71,7 +71,7 @@ As the message is from you, why not make sure the sprite looks a bit like you? I
 
 ## Nine more to go!
 
-In this project you experienced two Scratch Extension Blocks: Translate and Text to Speech. There are another nine more to get to know! Why not begin to explore them by clicking the Extension Block tab in the Srcatch Project. It looks like the example image below.
+In this project you experienced two Scratch Extension Blocks: Translate and Text to Speech. There are another nine more to get to know! Why not begin to explore them by clicking the Extension Block tab in the Scratch Project. It looks like the example image below.
 
 ![Extension Blocks tab](images/extension-blocks.png)
 
