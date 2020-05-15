@@ -18,7 +18,7 @@ What langauge does the respondent speak?
 
 --- task ---
 
-+ Open the code editor and delete the message that is there. Type in your message.
++ Open the code editor. The current message says "How are things going in Palenstine?". Delete the message that is there and type in your message.
 
 --- /task ---
 
@@ -48,12 +48,14 @@ set voice to [tenor v] ::tts
 
 ## Take a selfie
 
-As the message is from you, why not take a selfie so that it looks like you’re the one speaking and typing the message?
+![Access Stage](images/you.png)
+
+As the message is from you, why not make sure the sprite looks a bit like you as well so it appears that you’re the one speaking and typing the message.
 
 --- task ---
-+ Go to Stage. Select the Backdrop tab.
++ Go to Costumes. Select by highlighting one of the ten cosutmes listed.
 
-![Access Stage](images/stage.png)
+![Access Stage](images/Costumes.png)
 
 + Select 'Choose a Backdrop'. Then select Camera and Take a Photo.
 
