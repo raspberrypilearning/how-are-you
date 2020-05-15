@@ -41,6 +41,6 @@ say ( translate (answer) to (English v) ::translate ) for (2) seconds
 
 --- task ---
 
-+ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project link or search for [How are you](https://rpf.io/how-are-you-on) project.
++ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project link or search for [How are you?](https://rpf.io/how-are-you-on) project.
 
 --- /task ---
