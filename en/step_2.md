@@ -2,9 +2,9 @@
 
 If you have a Scratch account you can make a copy by clicking **Remix**.
 
-You should see a little yellow dot on a white background. We really need you to jazz things up! 
+You should see a young person - that's you (for now!). We really need you to jazz things up! 
 
-Click the green flag to run the project. It will sound and read like double-dutch! It is infact Arabic. Read on to find out  what's being said.
+Click the green flag to run the project. It will sound and read like you are speaking double-dutch! It is infact Arabic. Read on to find out what's being said.
 
 <div>
 <iframe src="https://scratch.mit.edu/projects/395701995/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -18,7 +18,7 @@ What langauge does the respondent speak?
 
 --- task ---
 
-+ Open the code editor. The current message says "How are things going in Palenstine?". Delete the message that is there and type in your message.
++ Open the code editor. In the current message you are saying "How are things going in Palenstine?". Delete the message that is there and type in your personal message.
 
 --- /task ---
 
@@ -46,30 +46,26 @@ set voice to [tenor v] ::tts
 ```
 --- /task ---
 
-## Take a selfie
+## Change your sprite
 
 ![Access Stage](images/you.png)
 
-As the message is from you, why not make sure the sprite looks a bit like you as well so it appears that you’re the one speaking and typing the message.
+As the message is from you, why not make sure the sprite looks a bit like you? It will then appear that you’re the one speaking and typing the message!
 
 --- task ---
-+ Go to Costumes. Select by highlighting one of the ten cosutmes listed.
++ Go to Costumes. Select, by highlighting, one of the ten cosutmes available. The sprite should have automatically changed.
+
++ Run the program to see you are speaking.
 
 ![Access Stage](images/Costumes.png)
 
-+ Select 'Choose a Backdrop'. Then select Camera and Take a Photo.
-
-![Access Camera](images/Choose-a-Backdrop-Camera.png)
-
 --- /task ---
-
-Run the program to see if the callout looks like you are speaking.
 
 --- task ---
 
-+ Adjust the position of callout by dragging the little yellow dot to the centre of your mouth.
++ Fancy a backdrop? It's a little bit too white! Got to 'Choose a Backdrop'. There's loads from the gallery to choose from.
 
-+ Run the program again. Do you need to adjust the little yellow dot again?
+![Access Camera](images/Choose a Backdrop.png)
 
 --- /task ---
 
@@ -78,6 +74,5 @@ Run the program to see if the callout looks like you are speaking.
 In this project you experienced two Scratch Extension Blocks: Translate and Text to Speech. There are another nine more to get to know! Why not begin to explore them? 
 
 ![Extension Blocks tab](images/extension-blocks.png)
-
 
 --- save ---
