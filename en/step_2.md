@@ -63,7 +63,7 @@ As the message is from you, why not make sure the sprite looks a bit like you? I
 
 --- task ---
 
-+ Fancy a backdrop? It's a little bit too white! Go to 'Choose a Backdrop'. There's loads from the gallery to choose from.
++ Fancy a backdrop? Thec urrent one's little bit too white! Go to 'Choose a Backdrop'. There's loads from the gallery to choose from.
 
 ![Access Choose a Backdrop](images/Choose a Backdrop.png)
 
@@ -71,7 +71,7 @@ As the message is from you, why not make sure the sprite looks a bit like you? I
 
 ## Nine more to go!
 
-In this project you experienced two Scratch Extension Blocks: Translate and Text to Speech. There are another nine more to get to know! Why not begin to explore them? 
+In this project you experienced two Scratch Extension Blocks: Translate and Text to Speech. There are another nine more to get to know! Why not begin to explore them by clicking the Extension Block tab in the Srcatch Project. It looks like the example image below.
 
 ![Extension Blocks tab](images/extension-blocks.png)
 
