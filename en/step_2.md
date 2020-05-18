@@ -51,7 +51,7 @@ As the message is from you, why not make sure the sprite looks a bit like you? I
 ![Access Costumes](images/Costumes.png)
 
 --- /task ---
-## Choose  a Backdrop
+## Choose a Backdrop
 --- task ---
 
 + The current backdrop is little too white! Fancy a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
