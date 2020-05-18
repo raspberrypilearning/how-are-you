@@ -4,7 +4,7 @@ Have you ever wondered how people are doing but, because you don’t speak their
 
 Make an e-card for family, friends or peers across the world who speak a different language. Choose a new sprite so it looks like you're speaking in their mother tongue!
 
-Hey, you'll seem billingual or even trilingual. Impressive!
+Hey, you'll seem bilingual or even trilingual. Impressive!
 
 ### What you will make
 
