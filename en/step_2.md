@@ -1,4 +1,4 @@
-**Online**: Open the 'How are you?' starter Scratch project [online](https://scratch.mit.edu/projects/395701995){:target="_blank"}.  If you have a Scratch account you can make a copy by clicking **Remix**.
+**Online**: Open the 'How are you?' starter Scratch project [online](http://rpf.io/how-are-you-on){:target="_blank"}.  If you have a Scratch account you can make a copy by clicking **Remix**.
 
 You should see a young person - that's you (for now!). We really need you to jazz things up! 
 
