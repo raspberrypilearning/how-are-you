@@ -8,7 +8,12 @@ Hey, you'll seem bilingual or even trilingual. Impressive!
 
 ### What you will make
 
-![e-card](images/introduction.png)
+--- no-print ---
+<div class="scratch-preview">
+  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/395701995/embed"
+frameborder="0"></iframe>
+</div>
+--- /no-print ---
 
 --- collapse ---
 ---
