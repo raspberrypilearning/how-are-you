@@ -27,7 +27,7 @@ say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate 
 ```
 Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
-+ If your message is long, you may need to change the value of how long your message is shown for. Why not run the program again to check if the timing fits.
++ If your message is long, you may need to change the value of how long your message is shown for. Why not run the program again to check if the timing fits?
 ```blocks3
 say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
 ```
