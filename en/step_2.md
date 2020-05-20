@@ -18,7 +18,7 @@ What langauge does the respondent speak?
 
 --- task ---
 
-+ Open the code editor. Currently in the `say`{:class=“block3looks”} block you say "How are things going in Palenstine?". Delete the message that is there and type in your own personal message.
++ Open the code editor. Currently in the `say`{:class="block3looks"} block you say "How are things going in Palenstine?". Delete the message that is there and type in your own personal message.
 
 + Choose the respondent's language i.e. the language you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
 ```blocks3
