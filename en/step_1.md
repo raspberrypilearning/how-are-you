@@ -15,7 +15,7 @@ frameborder="0"></iframe>
 </div>
 --- /no-print ---
 --- print-only ---
-![complete project](images/e-card.png)
+![complete project](images/youspeak.png)
 --- /print-only ---
 --- collapse ---
 ---
