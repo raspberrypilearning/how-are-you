@@ -22,7 +22,7 @@ say ( translate [Please answer by clicking the character.] to (Arabic v) ::trans
 + To see the Respondent, you also need to switch their show 'eye' on.
 !['Respondent' sprite](images/show-Respondent.png)
 
-+ In the code area, change the language option. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
++ In the code area outlined in black below, change the language option. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 ```blocks3
 when this sprite clicked
 set voice to [squeak v] ::tts
