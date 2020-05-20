@@ -15,7 +15,7 @@ frameborder="0"></iframe>
 </div>
 --- /no-print ---
 --- print-only ---
-![complete project](images/selfie.png)
+![complete project](images/e-card.png)
 --- /print-only ---
 --- collapse ---
 ---
