@@ -27,8 +27,8 @@ say ( translate [Please answer by clicking the character.] to (Arabic v) ::trans
 when this sprite clicked
 set voice to [squeak v] ::tts
 ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and wait
-say ( translate (answer) to (English v) ::translate ) for (2) seconds
-(translate (answer)  to [English v] ::translate) ::tts
++say ( translate (answer) to (English v) ::translate ) for (2) seconds
++(translate (answer) to [English v] ::translate) ::tts
 ```
 --- /task ---
 
