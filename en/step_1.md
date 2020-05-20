@@ -42,7 +42,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Use two Scratch Extension Blocks: Translate and Text to Speech.
++ Use two Scratch Extension blocks: `Translate`{:class=“block3extensions”} and `Text to Speech`{:class=“block3extensions”}.
 + Choose a sprite to respresent yourself.
 
 --- /collapse ---
