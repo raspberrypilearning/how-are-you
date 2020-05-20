@@ -14,7 +14,9 @@ Hey, you'll seem bilingual or even trilingual. Impressive!
 frameborder="0"></iframe>
 </div>
 --- /no-print ---
-
+--- print-only ---
+![complete project](images/selfie.png)
+--- /print-only ---
 --- collapse ---
 ---
 title: What you will need
