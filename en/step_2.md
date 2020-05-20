@@ -2,7 +2,7 @@
 
 To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see a young person - that's you (for now!). We really need you to jazz things up! 
+You should see a young person - that's you (for now!). We really need you to make things more interesting! 
 
 Click the green flag to run the project. It will sound and read like you are speaking double-dutch! It is infact Arabic. Read on to find out what's being said.
 
