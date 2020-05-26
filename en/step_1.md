@@ -49,7 +49,7 @@ title: What you will learn
 ---
 title: Additional information for educators
 ---
-src="https://scratch.mit.edu/projects/399169995/embed"
+Open the 'How are you?' finished Scratch project [online](http://rpf.io/how-are-you-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/how-are-you-?/print){:target="_blank"}.
 
