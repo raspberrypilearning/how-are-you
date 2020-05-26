@@ -2,6 +2,8 @@
 
 To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
 
+You can then download the starter project at [rpf.io/p/en/how-are-you-go](https://rpf.io/p/en/how-are-you-go).
+
 You should see a young person - that's you (for now!). Click the green flag to run the project. Read on to find out what's being said in Arabic.
 
 <div>
