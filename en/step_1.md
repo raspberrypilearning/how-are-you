@@ -25,7 +25,7 @@ title: What you will need
 
 + Scratch 3 (either online or offline)
 
-### Additional craft materials
+### Additional materials
 
 + None
 
