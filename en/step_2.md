@@ -18,20 +18,20 @@ What langauge does the respondent speak?
 
 --- task ---
 
-+ Open the code editor. Currently in the `say`{:class="block3looks"} block you say "Write your message here". Delete the message that is there and type in your own personal message.
++ Open the code editor. Currently in the `say`{:class="block3looks"} block you say "Type your message here". Delete the message that is there and type in your own personal message.
 
 + Choose the respondent's language i.e. the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-(translate [Write your message here] to [Arabic v] ::translate) ::tts
-say ( translate [Write your message here] to (Arabic v) ::translate ) for (4) seconds
+(translate [Type your message here] to [Arabic v] ::translate) ::tts
+say ( translate [Type your message here] to (Arabic v) ::translate ) for (4) seconds
 ```
 Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
 + If your message is long, you may need to change the value of how long your message is shown for. Why not run the program again to check if the timing fits?
 ```blocks3
-say ( translate [Write your message here] to (Arabic v) ::translate ) for (4) seconds
+say ( translate [Type your message here] to (Arabic v) ::translate ) for (4) seconds
 ```
 + If you like, change the tone of the voice so it  represents you.
 ```blocks3
