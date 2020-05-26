@@ -77,7 +77,7 @@ The respondent wants to reply to your message. Modify the program so they can me
 say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate ) for (4) seconds
 (translate [Reply by clicking the other sprite.] to [Arabic v] ::translate) ::tts
 ```
-+ Don't forget to select the respondent's language again. It's currently set on Arabic.
++ Don't forget to select the respondent's language again. It's currently set to Arabic.
 
 --- /task ---
 
