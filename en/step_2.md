@@ -2,9 +2,7 @@
 
 To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see a young person - that's you (for now!). We really need you to make things more interesting! 
-
-Click the green flag to run the project. Read on to find out what's being said in Arabic.
+You should see a young person - that's you (for now!). Click the green flag to run the project. Read on to find out what's being said in Arabic.
 
 <div>
 <iframe src="https://scratch.mit.edu/projects/395701995/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
@@ -20,7 +18,7 @@ What langauge does the respondent speak?
 
 + Open the code editor. Currently in the `say`{:class="block3looks"} block you say "Write your message here". Delete the message that is there and type in your own personal message.
 
-+ Choose the respondent's language i.e. the language you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
++ Choose the respondent's language i.e. the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
@@ -43,10 +41,10 @@ set voice to [tenor v] ::tts
 
 ![Access You](images/you.png)
 
-As the message is from you, why not make sure the sprite looks a bit like you? It will then appear that you’re the one speaking and typing the message!
+As the message is from you, why not choose a sprite costume to represent you? It will then appear that you’re the one speaking and typing the message!
 
 --- task ---
-+ Go to Costumes. Select, by highlighting, one of the ten cosutmes available. The sprite should have automatically changed.
++ Go to Costumes. Select, by highlighting, one of the ten cosutmes available. The sprite costume should automatically change on the stage.
 
 + Run the program to see and hear yourself speaking another langauge. Impressive!
 
