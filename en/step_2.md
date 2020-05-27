@@ -29,7 +29,7 @@ say ( translate [Type your message here] to (Arabic v) ::translate ) for (4) sec
 ```
 Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
-+ If your message is long, you may need to change the value of how long your message is shown for. Why not run the program again to check if the timing fits?
++ If your message is long, you may need to change the value of how long your message is shown for. Try to run the program again to check if the timing fits.
 ```blocks3
 say ( translate [Type your message here] to (Arabic v) ::translate ) for (4) seconds
 ```
@@ -43,10 +43,10 @@ set voice to [tenor v] ::tts
 
 ![Access You](images/you.png)
 
-As the message is from you, why not choose a sprite costume to represent you? It will then appear that you’re the one speaking and typing the message!
+As the message is from you, choose a sprite costume to represent you. It will then appear that you’re the one speaking and typing the message!
 
 --- task ---
-+ Go to Costumes. Select, by highlighting, one of the ten cosutmes available. The sprite costume should automatically change on the stage.
++ Go to Costumes. Select one of the ten cosutmes available by clicking on it. It will highlight it. The sprite costume should then automatically change on the stage.
 
 + Run the program to see and hear yourself speaking another langauge. Impressive!
 
