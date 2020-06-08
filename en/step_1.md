@@ -5,15 +5,22 @@ Have you ever wondered how people are doing but, because you don’t speak their
 ### What you will make
 
 --- no-print ---
+
 <div class="scratch-preview">
   <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/399169995/embed"
 frameborder="0"></iframe>
 </div>
+
 --- /no-print ---
+
 --- print-only ---
+
 ![complete project](images/youspeak.png)
+
 --- /print-only ---
+
 ![complete project](images/test.gif)
+
 --- collapse ---
 ---
 title: What you will need
