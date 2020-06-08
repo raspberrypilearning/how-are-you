@@ -19,8 +19,6 @@ frameborder="0"></iframe>
 
 --- /print-only ---
 
-![complete project](images/test.gif)
-
 --- collapse ---
 ---
 title: What you will need
