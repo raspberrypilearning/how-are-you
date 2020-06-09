@@ -14,13 +14,13 @@ You should see a young person - that's you (for now!). Click the green flag to r
 
 Think of the person you want to send your message to. We will call that person the 'respondent'. 
 
-What langauge does the respondent speak?
+What language does the respondent speak?
 
 --- task ---
 
 + Open the code editor. Currently in the `say`{:class="block3looks"} block you say "Type your message here". Delete the message that is there and type in your own personal message.
 
-+ Choose the respondent's language i.e. the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
++ Choose the respondent's language, i.e. the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
@@ -46,7 +46,7 @@ set voice to [tenor v] ::tts
 As the message is from you, choose a sprite costume to represent you. It will then appear that you’re the one speaking and typing the message!
 
 --- task ---
-+ Go to Costumes. Select one of the ten cosutmes available by clicking on it. It will highlight it. The sprite costume should then automatically change on the stage.
++ Go to Costumes. Select one of the ten costumes available by clicking on it. Your costume will become highlighted and your sprite will automatically change to that costume on the stage.
 
 + Run the program to see and hear yourself speaking another langauge. Impressive!
 
@@ -56,7 +56,7 @@ As the message is from you, choose a sprite costume to represent you. It will th
 ## Choose a Backdrop
 --- task ---
 
-+ The current backdrop is little too white! Fancy a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
++ The current backdrop is little too plain! Fancy a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
 
 ![Access Choose a Backdrop](images/Choose a Backdrop.png)
 
