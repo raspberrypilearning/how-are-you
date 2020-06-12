@@ -70,9 +70,11 @@ The respondent wants to reply to your message. Modify the program so they can me
 
 + To do this, you will need to attach two extra lines of code to sprite 'You'. The blocks will let the respondent know that they can reply by clicking their sprite (which we've yet to make appear). 
 
-+ Select sprite 'You' and find the `say`{:class="block3looks"} block from Looks.
-+ Under that, add a `speak`{:class="block3extensions"} block from Text to Speech.
-+ Add a rounded `translate`{:class="block3extensions"} block from the Translate blocks into the text field of both the new blocks, setting the text to, "Reply by clicking the other sprite."
++ Select sprite 'You'.
++ Go to `Looks`{:class="block3looks"} and select the `say`{:class="block3looks"} block. 
++ Got to `Text to Speech`{:class="block3looks"} and add a `speak`{:class="block3extensions"} block underneath the `say`{:class="block3looks"} block. 
++ Got to Translate{:class="block3extensions"} and add a rounded `translate`{:class="block3extensions"} into the text field of both these new blocks. 
++ Type the following in to both blocks: "Reply by clicking the other sprite."
 
 ```blocks3
 say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate ) for (4) seconds
