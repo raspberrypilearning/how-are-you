@@ -86,7 +86,7 @@ say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate 
 + Now select the sprite 'Respondent'.
 
 + To see the Respondent, you also need to switch their show 'eye' on.
-!['Respondent' sprite](images/show-Respondent.png)
+!['Respondent' sprite](images/show-respondent.png)
 
 + In the code area outlined in black below, change the language option. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 ```blocks3
