@@ -1,6 +1,6 @@
 ## Introduction
 
-Have you ever wondered how people are doing but, because you don’t speak their language, you can't ask them? Make an e-card for family, friends or peers across the world who speak a different language. Choose a sprite to represent you speaking in their language. Impressive!
+Have you ever wondered how people are feeling but, because you don’t speak their language, you can't ask them? Make an e-card for family, friends or peers across the world who speak a different language. Choose a sprite to represent you speaking in their language. Impressive!
 
 ### What you will make
 
