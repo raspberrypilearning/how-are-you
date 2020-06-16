@@ -39,7 +39,7 @@ set voice to [tenor v] ::tts
 
 ## Change your sprite
 
-![Access You](images/you.png)
+![Access You](images/you.png){:width="350px"}
 
 As the message is from you, choose a sprite costume to represent you. It will then appear that you’re the one speaking and typing the message!
 
