@@ -56,7 +56,7 @@ As the message is from you, choose a sprite costume to represent you. It will th
 
 + The current backdrop is little too plain! Fancy a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
 
-![Access Choose a Backdrop](images/choose-a-backdrop.png)
+![Access Choose a Backdrop](images/choose-a-backdrop.png){:width="350px"}
 
 --- /task ---
 
