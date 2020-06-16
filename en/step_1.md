@@ -1,10 +1,10 @@
 ## Introduction
 
-Have you ever wondered how people are feeling but, because you don’t speak their language, you can't ask them? Make an e-card for family, friends or peers across the world who speak a different language. Choose a sprite to represent you speaking in their language. Impressive!
+Have you ever wondered how people are feeling but, because you don’t speak their language, you can't ask them? Make an e-card for family, friends or peers across the world who speak a different language. Choose a sprite to represent you speaking in their language.
 
 ### What you will make
 
-Click the green flag. When the left-and sprite stops speaking, click the right-hand sprite to write a reply in the box provided. Click the blue tick to translate your message.
+Click the green flag. When the left-hand sprite stops speaking, click the right-hand sprite to write a reply in the box provided. Then click the blue tick to translate your message.
 
 --- no-print ---
 
