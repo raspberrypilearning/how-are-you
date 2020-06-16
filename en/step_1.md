@@ -17,7 +17,7 @@ frameborder="0"></iframe>
 
 --- print-only ---
 
-![complete project](images/youspeak.png){:width="400px"}
+![complete project](images/youspeak.png){:width="430px"}
 
 --- /print-only ---
 
