@@ -4,6 +4,8 @@ Have you ever wondered how people are doing but, because you don’t speak their
 
 ### What you will make
 
+Click the green flag. When the left-and sprite stops speaking, click the right-hand sprite to write a reply.
+
 --- no-print ---
 
 <div class="scratch-preview">
