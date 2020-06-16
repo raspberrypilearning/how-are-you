@@ -86,7 +86,7 @@ say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate 
 + Now select the sprite 'Respondent'.
 
 + To see the Respondent, you also need to switch their show 'eye' on.
-!['Respondent' sprite](images/show-respondent.png)
+!['Respondent' sprite](images/show-respondent.png){:width="350px"}
 
 + In the code area outlined in black below, change the language option. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 ```blocks3
@@ -101,13 +101,13 @@ ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and
 --- task ---
 
 + Change the look of the sprite 'Respondent' so it looks more like the Respondent i.e. your family member, friend or peer. Select the sprite, click on the Costumes tab and select one of the available costumes to represents them.
-!['Respondent' sprite](images/choose-respondent-costume.png)
+!['Respondent' sprite](images/choose-respondent-costume.png){:width="350px"}
 
 --- /task ---
 
 --- task ---
 
-+ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member? Share the project link or search for [How are you?](https://rpf.io/how-are-you-on) project.
++ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member?
 
 --- /task ---
 
