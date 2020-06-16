@@ -1,7 +1,7 @@
 ## What next?
 You've done amazingly well exploring two Scratch Extension blocks `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"} blocks as well as sprites!
 
-Explore the `Video Sensing`{:class="block3extensions"} block in another Starter project [Grow a tree](https://projects.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}?
+Explore the `Video Sensing`{:class="block3extensions"} block in another Starter project [Grow a tree](https://learning-admin.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}?
 
 ## Nine more to go!
 
