@@ -48,7 +48,7 @@ As the message is from you, choose a sprite costume to represent you. It will th
 
 + Run the program to see and hear yourself speaking another langauge. Impressive!
 
-![Access Costumes](images/costumes.png)
+![Access Costumes](images/costumes.png){:width="250px"}
 
 --- /task ---
 ## Choose a Backdrop
