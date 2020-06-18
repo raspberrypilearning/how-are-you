@@ -57,7 +57,7 @@ title: What you will learn
 ---
 title: Additional information for educators
 ---
-Open the completed 'How are you?' Scratch project [online](http://rpf.io/how-are-you-get){:target="_blank"}.
+You can find the completed project [here](http://rpf.io/how-are-you-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/how-are-you-?/print){:target="_blank"}.
 
