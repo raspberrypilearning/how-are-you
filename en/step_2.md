@@ -54,7 +54,7 @@ As the message is from you, choose a sprite costume to represent you. It will th
 ## Choose a Backdrop
 --- task ---
 
-+ The current backdrop is little too plain! Fancy a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
++ The current backdrop is little too plain! Why not choose a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
 
 ![Access Choose a Backdrop](images/choose-a-backdrop.png){:width="350px"}
 
@@ -66,9 +66,9 @@ The respondent wants to reply to your message. Modify the program so they can me
 
 --- task ---
 
-+ To do this, you will need to attach two extra lines of code to sprite 'You'. The blocks will let the respondent know that they can reply by clicking their sprite (which we've yet to make appear). 
++ To do this, you will need to attach two extra lines of code to the 'You' sprite. The blocks will let the respondent know that they can reply by clicking their sprite (which we've yet to make appear). 
 
-+ Select sprite 'You'.
++ Select the 'You' sprite.
 + Go to `Looks`{:class="block3looks"} and select the `say`{:class="block3looks"} block. 
 + Got to `Text to Speech`{:class="block3looks"} and add a `speak`{:class="block3extensions"} block underneath the `say`{:class="block3looks"} block. 
 + Got to Translate{:class="block3extensions"} and add a rounded `translate`{:class="block3extensions"} into the text field of both these new blocks. 
@@ -83,7 +83,7 @@ say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate 
 --- /task ---
 
 --- task ---
-+ Now select the sprite 'Respondent'.
++ Now select the 'Respondent' sprite.
 
 + To see the Respondent, you also need to switch their show 'eye' on.
 !['Respondent' sprite](images/show-respondent.png){:width="350px"}
@@ -100,7 +100,7 @@ ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and
 
 --- task ---
 
-+ Change the look of the sprite 'Respondent' so it looks more like the Respondent i.e. your family member, friend or peer. Select the sprite, click on the Costumes tab and select one of the available costumes to represents them.
++ Change the look of the 'Respondent' sprite so it looks more like the Respondent i.e. your family member, friend or peer. Select the sprite, click on the Costumes tab and select one of the available costumes to represents them.
 !['Respondent' sprite](images/choose-respondent-costume.png){:width="350px"}
 
 --- /task ---
