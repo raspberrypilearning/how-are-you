@@ -44,7 +44,7 @@ set voice to [tenor v] ::tts
 As the message is from you, choose a sprite costume to represent you. It will then appear that you’re the one speaking and typing the message!
 
 --- task ---
-+ Go to Costumes. Select one of the ten costumes available by clicking on it. Your costume will become highlighted and your sprite will automatically change to that costume on the stage.
++ Go to **Costumes**. Select one of the ten costumes available by clicking on it. Your costume will become highlighted and your sprite will automatically change to that costume on the stage.
 
 + Run the program to see and hear yourself speaking another langauge. Impressive!
 
@@ -54,7 +54,7 @@ As the message is from you, choose a sprite costume to represent you. It will th
 ## Choose a Backdrop
 --- task ---
 
-+ The current backdrop is little too plain! Why not choose a different one? Go to 'Choose a Backdrop'. There's loads in the gallery to choose from.
++ The current backdrop is little too plain! Why not choose a different one? Go to **Choose a Backdrop**. There are loads in the gallery to choose from.
 
 ![Access Choose a Backdrop](images/choose-a-backdrop.png){:width="350px"}
 
@@ -66,9 +66,9 @@ The respondent wants to reply to your message. Modify the program so they can me
 
 --- task ---
 
-+ To do this, you will need to attach two extra lines of code to the 'You' sprite. The blocks will let the respondent know that they can reply by clicking their sprite (which we've yet to make appear). 
++ To do this, you will need to attach two extra lines of code to the **You** sprite. The blocks will let the respondent know that they can reply by clicking their sprite (which we've yet to make appear). 
 
-+ Select the 'You' sprite.
++ Select the **You** sprite.
 + Go to `Looks`{:class="block3looks"} and select the `say`{:class="block3looks"} block. 
 + Got to `Text to Speech`{:class="block3looks"} and add a `speak`{:class="block3extensions"} block underneath the `say`{:class="block3looks"} block. 
 + Got to Translate{:class="block3extensions"} and add a rounded `translate`{:class="block3extensions"} into the text field of both these new blocks. 
@@ -83,9 +83,9 @@ say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate 
 --- /task ---
 
 --- task ---
-+ Now select the 'Respondent' sprite.
++ Now select the **Respondent** sprite.
 
-+ To see the Respondent, you also need to switch their show 'eye' on.
++ To see the **Respondent** sprite, you also need to switch their show **eye** on.
 !['Respondent' sprite](images/show-respondent.png){:width="350px"}
 
 + In the program, change the language option - see the blocks highlighted in black below. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
@@ -100,7 +100,7 @@ ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and
 
 --- task ---
 
-+ Change the look of the 'Respondent' sprite so it looks more like the Respondent i.e. your family member, friend or peer. Select the sprite, click on the Costumes tab and select one of the available costumes to represents them.
++ Change the look of the **Respondent** sprite so it looks more like the respondent i.e. the family member, friend or peer you are sending the mesage tp. Select the sprite, click on the **Costumes** tab and select one of the available costumes to represents them.
 
 !['Respondent' sprite](images/choose-respondent-costume.png){:width="400px"}
 
