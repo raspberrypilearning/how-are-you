@@ -101,7 +101,8 @@ ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and
 --- task ---
 
 + Change the look of the 'Respondent' sprite so it looks more like the Respondent i.e. your family member, friend or peer. Select the sprite, click on the Costumes tab and select one of the available costumes to represents them.
-!['Respondent' sprite](images/choose-respondent-costume.png){:width="350px"}
+
+!['Respondent' sprite](images/choose-respondent-costume.png){:width="400px"}
 
 --- /task ---
 
