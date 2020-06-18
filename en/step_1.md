@@ -48,8 +48,8 @@ title: What you will need
 title: What you will learn
 ---
 
-+ Use two Scratch extension blocks: `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}.
-+ Choose a sprite to respresent yourself.
++ How to use two Scratch extension blocks: `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}.
++ How to choose a sprite to respresent yourself.
 
 --- /collapse ---
 
