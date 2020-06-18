@@ -108,7 +108,7 @@ ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and
 
 --- task ---
 
-+ Run the program again. Is it working as you want it to? If so, why not try it out on a friend or family member?
++ Run the program again. Is it working as you want it to?
 
 --- /task ---
 
