@@ -1,6 +1,6 @@
-**Online**: Open the 'How are you?' starter Scratch project [online](http://rpf.io/how-are-you-on){:target="_blank"}.  If you have a Scratch account you can make a copy by clicking **Remix**.
-
-If you are working offline, you will need the Scratch software installed from [rpf.io/scratch-off](https://rpf.io/scratch-off){:target="_blank"}. You can then download the Starter project at [rpf.io/p/en/how-are-you-go](https://rpf.io/p/en/how-are-you-go).
+If working **online**, open the [starter project](http://rpf.io/p/en/how-are-you-on){:target="_blank"} in Scratch.
+ 
+If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
 You should see a young person - that's you (for now!). Click the green flag to run the project. Read on to find out what you are saying in Arabic.
 

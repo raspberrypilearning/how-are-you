@@ -26,20 +26,14 @@ frameborder="0"></iframe>
 title: What you will need
 ---
 ### Hardware
-
-+ A computer capable of running Scratch
-
++ A Computer or tablet capable of running Scratch
+ 
 ### Software
-
-+ Scratch 3 (either [online](http://rpf.io/scratchon){:target="_blank"} or [offline](http://rpf.io/scratchoff){:target="_blank"})
-
-### Additional materials
-
-+ None
-
++ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
+ 
 ### Downloads
++ Download the project [starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} if working offline
 
-+ To open this project offline, follow the link to the Scratch Offline Editor: [www.scratch.mit.edu/download](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /collapse ---
 
@@ -57,7 +51,7 @@ title: What you will learn
 ---
 title: Additional information for educators
 ---
-You can find the completed project [here](http://rpf.io/how-are-you-get){:target="_blank"}.
+You can download the completed project [here](http://rpf.io/p/en/how-are-you-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/how-are-you-?/print){:target="_blank"}.
 
