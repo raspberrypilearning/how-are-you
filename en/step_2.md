@@ -1,4 +1,4 @@
-If working **online**, open the [starter project](http://rpf.io/p/en/how-are-you-on){:target="_blank"} in Scratch.
+If working **online**, open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
  
 If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
@@ -37,26 +37,9 @@ set voice to [tenor v] ::tts
 ```
 --- /task ---
 
-## Change your sprite
-
-![Access You](images/you.png){:width="100px"}
-
-As the message is from you, choose a sprite costume to represent you. It will then appear that you’re the one speaking and typing the message!
-
---- task ---
-+ Go to **Costumes**. Select one of the ten costumes available by clicking on it. Your costume will become highlighted and your sprite will automatically change to that costume on the stage.
-
-+ Run the program to see and hear yourself speaking another langauge. Impressive!
-
-![Access Costumes](images/costumes.png){:width="350px"}
-
---- /task ---
-## Choose a Backdrop
 --- task ---
 
-+ The current backdrop is little too plain! Why not choose a different one? Go to **Choose a Backdrop**. There are loads in the gallery to choose from.
-
-![Access Choose a Backdrop](images/choose-a-backdrop.png){:width="350px"}
+If you have used Scratch before, or want to try new things out, try changing the sprite or the backdrop.
 
 --- /task ---
 
@@ -96,20 +79,6 @@ ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and
 +say ( translate (answer) to (English v) ::translate ) for (2) seconds
 +(translate (answer) to [English v] ::translate) ::tts
 ```
---- /task ---
-
---- task ---
-
-+ Change the look of the **Respondent** sprite so it looks more like the respondent i.e. the family member, friend or peer you are sending the mesage tp. Select the sprite, click on the **Costumes** tab and select one of the available costumes to represents them.
-
-!['Respondent' sprite](images/choose-respondent-costume.png){:width="400px"}
-
---- /task ---
-
---- task ---
-
-+ Run the program again. Is it working as you want it to?
-
 --- /task ---
 
 --- save ---
