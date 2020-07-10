@@ -12,13 +12,13 @@ What language does the respondent speak?
 
 --- task ---
 
-Currently in the `translate`{:class="block3extension"} and  `say`{:class="block3looks"} block "Type your message here" is written. Type your own messages into each block.
+In the `translate`{:class="block3extensions"} and  `say`{:class="block3looks"} blocks "Type your message here" is written. Type your own messages into each block.
 
 ```blocks3
 when flag clicked
-set voice to [tenor v] ::tts
-+ (translate [My own message] to [Arabic v] ::translate) ::tts
-+ say ( translate [My own message] to (Arabic v) ::translate ) for (4) seconds
+set voice to (tenor v) ::tts
++ translate [My own message] to (Arabic v) ::tts
++ say ( translate [My own message] to (Arabic v) ::tts ) for (4) seconds
 ```
 
 --- /task ---
@@ -29,9 +29,9 @@ Choose the language you want to translate your message in to. It's currently set
 
 ```blocks3
 when flag clicked
-set voice to [tenor v] ::tts
-+ (translate [My own message] to [Czech v] ::translate) ::tts
-+ say ( translate [My own message] to (Czech v) ::translate ) for (4) seconds
+set voice to (tenor v) ::tts
++ translate [My own message] to (Czech v) ::tts
++ say ( translate [My own message] to (Czech v) ::tts ) for (4) seconds
 ```
 
 --- /task ---
@@ -43,8 +43,8 @@ You may need to change the value of how long your message is shown for.
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-(translate [My own message] to [Czech v] ::translate) ::tts
-+ say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
+translate [My own message] to [Czech v] ::tts
++ say ( translate [My own message] to (Czech v) ::tts ) for (8) seconds
 ```
 --- /task ---
 
@@ -55,8 +55,8 @@ If you like, change the voice so it sounds more like you.
 ```blocks3
 when flag clicked
 + set voice to [squeak v] ::tts
-(translate [My own message] to [Czech v] ::translate) ::tts
-say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
+translate [My own message] to [Czech v] ::tts
+say ( translate [My own message] to (Czech v) ::tts ) for (8) seconds
 
 ```
 
@@ -83,8 +83,8 @@ To do this, you will need to attach two extra lines of code to the **You** sprit
 + Type the following in to both blocks: "Reply by clicking the other sprite."
 
 ```blocks3
-say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate ) for (4) seconds
-(translate [Reply by clicking the other sprite.] to [Arabic v] ::translate) ::tts
+say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::tts ) for (4) seconds
+translate [Reply by clicking the other sprite.] to [Arabic v] ::tts
 ```
 
 + Don't forget to select the respondent's language again. It's currently set to Arabic.
@@ -104,9 +104,9 @@ say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate 
 ```blocks3
 when this sprite clicked
 set voice to [squeak v] ::tts
-ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and wait
-+ say ( translate (answer) to (English v) ::translate ) for (2) seconds
-+ (translate (answer) to [English v] ::translate) ::tts
+ask (translate [Type in your reply here.] to [Arabic v] ::tts) and wait
++ say ( translate (answer) to (English v) ::tts ) for (2) seconds
++ translate (answer) to [English v] ::tts
 ```
 
 --- /task ---
