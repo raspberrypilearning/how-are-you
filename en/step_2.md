@@ -16,25 +16,37 @@ What language does the respondent speak?
 
 --- task ---
 
-+ Open the code editor. Currently in the `say`{:class="block3looks"} block you say "Type your message here". Delete the message that is there and type in your own personal message.
++ Open the code editor. Currently in the `say`{:class="block3looks"} block "Type your message here" is written. Delete this message and type in your own message.
 
-+ Choose the respondent's language, i.e. the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
++ Choose the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from!
+
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
 (translate [Type your message here] to [Arabic v] ::translate) ::tts
 say ( translate [Type your message here] to (Arabic v) ::translate ) for (4) seconds
 ```
+
 Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
 
-+ If your message is long, you may need to change the value of how long your message is shown for. Try to run the program again to check if the timing fits.
++ You may need to change the value of how long your message is shown for.
+
 ```blocks3
-say ( translate [Type your message here] to (Arabic v) ::translate ) for (4) seconds
-```
-+ If you like, change the tone of the voice so it  represents you.
-```blocks3
+when flag clicked
 set voice to [tenor v] ::tts
+(translate [Type your message here] to [Arabic v] ::translate) ::tts
++ say ( translate [Type your message here] to (Arabic v) ::translate ) for (8) seconds
 ```
+
++ If you like, change the tone of the voice so it represents you.
+
+```blocks3
+when flag clicked
++ set voice to [squeak v] ::tts
+(translate [Type your message here] to [Arabic v] ::translate) ::tts
++ say ( translate [Type your message here] to (Arabic v) ::translate ) for (8) seconds
+```
+
 --- /task ---
 
 --- task ---
@@ -66,12 +78,15 @@ say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::translate 
 --- /task ---
 
 --- task ---
-+ Now select the **Respondent** sprite.
 
-+ To see the **Respondent** sprite, you also need to switch their show **eye** on.
-!['Respondent' sprite](images/show-respondent.png){:width="350px"}
++ Now click on the **Respondent** sprite.
+
+--- /task ---
+
+--- task ---
 
 + In the program, change the language option - see the blocks highlighted in black below. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
+
 ```blocks3
 when this sprite clicked
 set voice to [squeak v] ::tts
@@ -79,6 +94,7 @@ ask ((translate [Type in your reply here.] to [Arabic v] ::translate) ::tts) and
 +say ( translate (answer) to (English v) ::translate ) for (2) seconds
 +(translate (answer) to [English v] ::translate) ::tts
 ```
+
 --- /task ---
 
 --- save ---
