@@ -74,7 +74,7 @@ The respondent wants to reply to your message. Modify the program so they can me
 
 --- task ---
 
-To do this, you will need to attach two extra lines of code to the **You** sprite. The blocks will let the respondent know that they can reply by clicking their sprite (which we've yet to make appear). 
+To do this, you will need to attach two extra lines of code to the **You** sprite. The blocks will let the respondent know that they can reply by clicking their sprite. 
 
 + Select the **You** sprite.
 + Go to `Looks`{:class="block3looks"} and select the `say`{:class="block3looks"} block. 
@@ -82,12 +82,25 @@ To do this, you will need to attach two extra lines of code to the **You** sprit
 + Got to Translate{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks. 
 + Type the following in to both blocks: "Reply by clicking the other sprite."
 
+
 ```blocks3
-say ( translate [Reply by clicking the other sprite.] to (Czech v) ::tts ) for (4) seconds
-translate [Reply by clicking the other sprite.] to [Czech v] ::tts
+when flag clicked
+set voice to [squeak v] ::tts
+translate [My own message] to [Czech v] ::tts
+say ( translate [My own message] to (Czech v) ::tts ) for (8) seconds
++ say (translate [Reply by clicking the other sprite] to (Czech v) ::tts) for (4) seconds [Reply by clicking the other sprite] to (Czech v) :tts
++ translate 
+
+```
+```blocks3
+when this sprite clicked
+set voice to (squeak v)
+ask (translate [Type in your message here] to (Czech v)) and wait
++ say ( translate [Reply by clicking the other sprite.] to (Czech v) ::tts ) for (4) seconds
++ translate [Reply by clicking the other sprite.] to [Czech v] ::tts
 ```
 
-+ Don't forget to select the respondent's language again. It's currently set to Arabic.
++ Don't forget to select the respondent's language again.
 
 --- /task ---
 
@@ -103,10 +116,10 @@ translate [Reply by clicking the other sprite.] to [Czech v] ::tts
 
 ```blocks3
 when this sprite clicked
-set voice to [squeak v] ::tts
-ask (translate [Type in your reply here.] to [Arabic v] ::tts) and wait
-+ say ( translate (answer) to (English v) ::tts ) for (2) seconds
-+ translate (answer) to [English v] ::tts
+set voice to (squeak v)
+ask (translate [Type in your message here] to (Czech v)) and wait
++ say ( translate [Reply by clicking the other sprite.] to (Czech v) ::tts ) for (4) seconds
++ translate [Reply by clicking the other sprite.] to [Czech v] ::tts
 ```
 
 --- /task ---
