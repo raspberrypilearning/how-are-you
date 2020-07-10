@@ -1,4 +1,4 @@
-# how-are-you
+# How are you?
 
 ![how-are-you](banner.png)
 
