@@ -78,13 +78,13 @@ To do this, you will need to attach two extra lines of code to the **You** sprit
 
 + Select the **You** sprite.
 + Go to `Looks`{:class="block3looks"} and select the `say`{:class="block3looks"} block. 
-+ Got to `Text to Speech`{:class="block3looks"} and add a `speak`{:class="block3extensions"} block underneath the `say`{:class="block3looks"} block. 
-+ Got to Translate{:class="block3extensions"} and add a rounded `translate`{:class="block3extensions"} into the text field of both these new blocks. 
++ Got to `Text to Speech`{:class="block3extensions"} and add a `speak`{:class="block3extensions"} block underneath the `say`{:class="block3looks"} block. 
++ Got to Translate{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks. 
 + Type the following in to both blocks: "Reply by clicking the other sprite."
 
 ```blocks3
-say ( translate [Reply by clicking the other sprite.] to (Arabic v) ::tts ) for (4) seconds
-translate [Reply by clicking the other sprite.] to [Arabic v] ::tts
+say ( translate [Reply by clicking the other sprite.] to (Czech v) ::tts ) for (4) seconds
+translate [Reply by clicking the other sprite.] to [Czech v] ::tts
 ```
 
 + Don't forget to select the respondent's language again. It's currently set to Arabic.
@@ -99,7 +99,7 @@ translate [Reply by clicking the other sprite.] to [Arabic v] ::tts
 
 --- task ---
 
-+ In the program, change the language option - see the blocks highlighted in black below. Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
++ Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 
 ```blocks3
 when this sprite clicked
