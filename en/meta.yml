@@ -4,7 +4,7 @@ description: Ask someone how they are in their own language and translate their 
 version: 4
 listed: false
 copyedit: false
-last_tested: "2020-05-11"
+last_tested: "2020-07-10"
 steps:
   - title: Introduction
   - title: Translate your message
