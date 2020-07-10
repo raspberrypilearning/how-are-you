@@ -9,4 +9,5 @@ steps:
   - title: Introduction
   - title: Translate your message
   - title: 'Challenge: Phrase book'
+    challenge: true  
   - title: What next?
