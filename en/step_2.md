@@ -57,7 +57,7 @@ when flag clicked
 + set voice to [squeak v] ::tts
 translate [My own message] to [Czech v] ::tts
 say ( translate [My own message] to (Czech v) ::tts ) for (8) seconds
-
+nn
 ```
 
 --- /task ---
@@ -88,16 +88,9 @@ when flag clicked
 set voice to [squeak v] ::tts
 translate [My own message] to [Czech v] ::tts
 say ( translate [My own message] to (Czech v) ::tts ) for (8) seconds
-+ say (translate [Reply by clicking the other sprite] to (Czech v) ::tts) for (4) seconds [Reply by clicking the other sprite] to (Czech v) :tts
-+ translate 
++ say (translate [Reply by clicking the other sprite] to (Czech v) ::tts) for (4) seconds 
++ translate [Reply by clicking the other sprite] to (Czech v) :tts
 
-```
-```blocks3
-when this sprite clicked
-set voice to (squeak v)
-ask (translate [Type in your message here] to (Czech v)) and wait
-+ say ( translate [Reply by clicking the other sprite.] to (Czech v) ::tts ) for (4) seconds
-+ translate [Reply by clicking the other sprite.] to [Czech v] ::tts
 ```
 
 + Don't forget to select the respondent's language again.
