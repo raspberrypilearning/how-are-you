@@ -43,7 +43,7 @@ You may need to change the value of how long your message is shown for.
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-speak (translate [My own message] to [Czech v] ::translate)) ::tts
+speak (translate [My own message] to [Czech v] ::translate) ::tts
 + say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
 ```
 --- /task ---
@@ -55,7 +55,7 @@ If you like, change the voice so it sounds more like you.
 ```blocks3
 when flag clicked
 + set voice to [squeak v] ::tts
-speak (translate [My own message] to [Czech v] ::translate) :tts
+speak (translate [My own message] to [Czech v] ::translate) ::tts
 say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
 ```
 
