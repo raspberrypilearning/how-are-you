@@ -78,7 +78,7 @@ To do this, you will need to attach two extra lines of code to the **You** sprit
 + Select the **You** sprite.
 + Go to `Looks`{:class="block3looks"} and select the `say`{:class="block3looks"} block. 
 + Got to `Text to Speech`{:class="block3extensions"} and add a `speak`{:class="block3extensions"} block underneath the `say`{:class="block3looks"} block. 
-+ Got to Translate{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks. 
++ Got to `Translate`{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks. 
 + Type the following in to both blocks: "Reply by clicking the other sprite."
 
 
@@ -110,8 +110,8 @@ say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
 when this sprite clicked
 set voice to (squeak v) ::tts
 ask (translate [Type in your message here] to (Czech v) ::translate) and wait
-+ say ( translate [Reply by clicking the other sprite.] to (Czech v) ::translate ) for (4) seconds
-+ speak (translate [Reply by clicking the other sprite.] to [Czech v] ::translate) ::tts
++ say ( translate [Reply by clicking the other sprite.] to (English v) ::translate ) for (4) seconds
++ speak (translate [Reply by clicking the other sprite.] to [English v] ::translate) ::tts
 ```
 
 --- /task ---
