@@ -12,13 +12,13 @@ What language does the respondent speak?
 
 --- task ---
 
-Currently in the `say`{:class="block3looks"} block "Type your message here" is written. Delete this message and type in your own message.
+Currently in the `translate`{:class="block3extension"} and  `say`{:class="block3looks"} block "Type your message here" is written. Type your own messages into each block.
 
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-(translate [Type your message here] to [Arabic v] ::translate) ::tts
-say ( translate [Type your message here] to (Arabic v) ::translate ) for (4) seconds
++ (translate [My own message] to [Arabic v] ::translate) ::tts
++ say ( translate [My own message] to (Arabic v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
@@ -27,9 +27,14 @@ say ( translate [Type your message here] to (Arabic v) ::translate ) for (4) sec
 
 Choose the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from!
 
---- /task ---
+```blocks3
+when flag clicked
+set voice to [tenor v] ::tts
++ (translate [My own message] to [Czech v] ::translate) ::tts
++ say ( translate [My own message] to (Czech v) ::translate ) for (4) seconds
+```
 
-Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
+--- /task ---
 
 --- task ---
 
@@ -38,27 +43,28 @@ You may need to change the value of how long your message is shown for.
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-(translate [Type your message here] to [Arabic v] ::translate) ::tts
-+ say ( translate [Type your message here] to (Arabic v) ::translate ) for (8) seconds
+(translate [My own message] to [Czech v] ::translate) ::tts
++ say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
 ```
 --- /task ---
 
 --- task ---
 
-If you like, change the tone of the voice so it represents you.
+If you like, change the voice so it sounds more like you.
 
 ```blocks3
 when flag clicked
 + set voice to [squeak v] ::tts
-(translate [Type your message here] to [Arabic v] ::translate) ::tts
-+ say ( translate [Type your message here] to (Arabic v) ::translate ) for (8) seconds
+(translate [My own message] to [Czech v] ::translate) ::tts
+say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
+
 ```
 
 --- /task ---
 
 --- task ---
 
-If you have used Scratch before, or want to try new things out, try changing the sprite or the backdrop.
+If you have used Scratch before, or want to try new things out, try changing the sprite's costume and the backdrop.
 
 --- /task ---
 
