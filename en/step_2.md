@@ -89,7 +89,7 @@ set voice to [squeak v] ::tts
 translate [My own message] to [Czech v] ::tts
 say ( translate [My own message] to (Czech v) ::tts ) for (8) seconds
 + say (translate [Reply by clicking the other sprite] to (Czech v) ::tts) for (4) seconds 
-+ translate [Reply by clicking the other sprite] to (Czech v) :tts
++ translate [Reply by clicking the other sprite] to (Czech v) ::tts
 
 ```
 
@@ -109,8 +109,8 @@ say ( translate [My own message] to (Czech v) ::tts ) for (8) seconds
 
 ```blocks3
 when this sprite clicked
-set voice to (squeak v)
-ask (translate [Type in your message here] to (Czech v)) and wait
+set voice to (squeak v) ::tts
+ask (translate [Type in your message here] to (Czech v) ::tts) and wait
 + say ( translate [Reply by clicking the other sprite.] to (Czech v) ::tts ) for (4) seconds
 + translate [Reply by clicking the other sprite.] to [Czech v] ::tts
 ```
