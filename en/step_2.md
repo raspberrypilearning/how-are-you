@@ -1,83 +1,119 @@
-**Online**: Open the 'How are you?' starter Scratch project online at [rpf.io/how-are-you-on](https://scratch.mit.edu/projects/394360639){:target="_blank"}
+If working **online**, open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
+ 
+If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
-If you have a Scratch account you can make a copy by clicking **Remix**.
-
-You should see a little yellow dot on a white background. We really need you to jazz things up! 
-
-Click the green flag to run the project. It will sound and read like double-dutch! It is infact Arabic. Read on to find out  what's being said.
-
-<div>
-<iframe src="https://scratch.mit.edu/projects/390185573/embed" allowtransparency="true" width="485" height="402" frameborder="0" scrolling="no" allowfullscreen></iframe>
-</div>
+You should see two young people - one is you and the other is your friend. Click the green flag and you should see and hear one of the spirtes, speaking in Arabic.
 
 ## Translate your message
 
 Think of the person you want to send your message to. We will call that person the 'respondent'. 
 
-What langauge does the respondent speak?
+What language does the respondent speak?
 
 --- task ---
 
-+ Open the code editor. The current message says "How are things going in Palenstine?". Delete the message that is there and type in your message.
+In the `translate`{:class="block3extensions"} and  `say`{:class="block3looks"} blocks "Type your message here" is written. Type your own messages into each block.
+
+```blocks3
+when flag clicked
+set voice to (tenor v) ::tts
++ speak (translate [My own message] to (Arabic v) ::translate) ::tts
++ say ( translate [My own message] to (Arabic v) ::translate ) for (4) seconds
+```
 
 --- /task ---
 
 --- task ---
 
-+ Choose the respondent's language i.e. the language you want to translate your message in to. There are 40 languages in Scratch to choose from! Let's hope the language the respondent speaks is included in those 40.
+Choose the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from!
+
+```blocks3
+when flag clicked
+set voice to (tenor v) ::tts
++ speak (translate [My own message] to (Czech v) ::translate) ::tts
++ say ( translate [My own message] to (Czech v) ::translate ) for (4) seconds
+```
+
 --- /task ---
+
+--- task ---
+
+You may need to change the value of how long your message is shown for.
+
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-(translate [How are things going in Palenstine?] to [Arabic v] ::translate) ::tts
-say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
+speak (translate [My own message] to [Czech v] ::translate) ::tts
++ say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
 ```
-Notice you need to select the language twice and paste your message in twice in order to create both spoken and written translation.
+--- /task ---
 
 --- task ---
 
-+ If your message is long, you may need to change the value of how long your message is shown for. Why not run the program again to check if the timing fits.
+If you like, change the voice so it sounds more like you.
+
 ```blocks3
-say ( translate [How are things going in Palenstine?] to (Arabic v) ::translate ) for (4) seconds
+when flag clicked
++ set voice to [squeak v] ::tts
+speak (translate [My own message] to [Czech v] ::translate) ::tts
+say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
 ```
-+ If you like, change the tone of the voice so it  represents you.
+
+--- /task ---
+
+--- task ---
+
+If you have used Scratch before, or want to try new things out, try changing the sprite's costume and the backdrop.
+
+--- /task ---
+
+## Respondent's reply
+
+The respondent wants to reply to your message. Modify the program so they can message you back.
+
+--- task ---
+
+To do this, you will need to attach two extra lines of code to the **You** sprite. The blocks will let the respondent know that they can reply by clicking their sprite. 
+
++ Select the **You** sprite.
++ Go to `Looks`{:class="block3looks"} and select the `say`{:class="block3looks"} block. 
++ Got to `Text to Speech`{:class="block3extensions"} and add a `speak`{:class="block3extensions"} block underneath the `say`{:class="block3looks"} block. 
++ Got to `Translate`{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks. 
++ Type the following in to both blocks: "Reply by clicking the other sprite."
+
+
 ```blocks3
-set voice to [tenor v] ::tts
+when flag clicked
+set voice to [squeak v] ::tts
+speak (translate [My own message] to [Czech v] ::translate) ::tts
+say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
++ say (translate [Reply by clicking the other sprite] to (Czech v) ::tts) for (4) seconds 
++ speak (translate [Reply by clicking the other sprite] to (Czech v) ::translate) ::tts
+
 ```
---- /task ---
 
-## Take a selfie
-
-![Access Stage](images/you.png)
-
-As the message is from you, why not make sure the sprite looks a bit like you as well so it appears that you’re the one speaking and typing the message.
-
---- task ---
-+ Go to Costumes. Select by highlighting one of the ten cosutmes listed.
-
-![Access Stage](images/Costumes.png)
-
-+ Select 'Choose a Backdrop'. Then select Camera and Take a Photo.
-
-![Access Camera](images/Choose-a-Backdrop-Camera.png)
++ Don't forget to select the respondent's language again.
 
 --- /task ---
-
-Run the program to see if the callout looks like you are speaking.
 
 --- task ---
 
-+ Adjust the position of callout by dragging the little yellow dot to the centre of your mouth.
-
-+ Run the program again. Do you need to adjust the little yellow dot again?
++ Now click on the **Respondent** sprite.
 
 --- /task ---
 
-## Nine more to go!
+--- task ---
 
-In this project you experienced two Scratch Extension Blocks: Translate and Text to Speech. There are another nine more to get to know! Why not begin to explore them? 
++ Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 
-![Extension Blocks tab](images/extension-blocks.png)
+```blocks3
+when this sprite clicked
+set voice to (squeak v) ::tts
+ask (translate [Type in your message here] to (Czech v) ::translate) and wait
++ say ( translate [Reply by clicking the other sprite.] to (English v) ::translate ) for (4) seconds
++ speak (translate [Reply by clicking the other sprite.] to [English v] ::translate) ::tts
+```
 
+--- /task ---
 
 --- save ---

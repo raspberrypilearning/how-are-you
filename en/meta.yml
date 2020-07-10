@@ -1,6 +1,6 @@
-title: how-are-you
-hero_image: images/banner.png
-description: how-are-you description
+title: How are you?
+hero_image: images/introduction.png
+description: Ask someone how they are in their own language and translate their message back to you
 version: 4
 listed: false
 copyedit: false
@@ -10,3 +10,4 @@ steps:
   - title: Translate your message
   - title: Challenge: Receive a message back
   - title: What's next
+
