@@ -12,7 +12,7 @@ What language does the respondent speak?
 
 --- task ---
 
-In the `translate`{:class="block3extensions"} and  `say`{:class="block3looks"} blocks "Type your message here" is written. Type your own messages into each block.
+In the `translate`{:class="block3extensions"} blocks "Type your message here" is written. Type your own messages into each block.
 
 ```blocks3
 when flag clicked
@@ -75,11 +75,21 @@ The respondent wants to reply to your message. Modify the program so they can me
 
 To do this, you will need to attach two extra lines of code to the **You** sprite. The blocks will let the respondent know that they can reply by clicking their sprite. 
 
-+ Select the **You** sprite.
-+ Go to `Looks`{:class="block3looks"} and select the `say`{:class="block3looks"} block. 
-+ Got to `Text to Speech`{:class="block3extensions"} and add a `speak`{:class="block3extensions"} block underneath the `say`{:class="block3looks"} block. 
-+ Got to `Translate`{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks. 
-+ Type the following in to both blocks: "Reply by clicking the other sprite."
+Select the **You** sprite, and add a `say Hello for 2 seconds`{:class="block3looks"} and a `speak`{:class="block3extensions"} block. You can find these in `Looks`{:class="block3looks"} and `Text to Speech`{:class="block3extensions"}.
+
+
+```blocks3
+when flag clicked
+set voice to [squeak v] ::tts
+speak (translate [My own message] to [Czech v] ::translate) ::tts
+say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
++ say [Hello] for (2) seconds 
++ speak [Hello] ::tts
+```
+
+--- /task ---
+
+Got to `Translate`{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks, with the following in to both blocks: "Reply by clicking the other sprite."
 
 
 ```blocks3
@@ -92,19 +102,19 @@ say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
 
 ```
 
-+ Don't forget to select the respondent's language again.
+Don't forget to select the respondent's language again.
 
 --- /task ---
 
 --- task ---
 
-+ Now click on the **Respondent** sprite.
+Now click on the **Respondent** sprite.
 
 --- /task ---
 
 --- task ---
 
-+ Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
+Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 
 ```blocks3
 when this sprite clicked
