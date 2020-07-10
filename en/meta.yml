@@ -9,5 +9,6 @@ steps:
   - title: Introduction
   - title: Translate your message
   - title: "Challenge: Receive a message back"
+    challenge: true  
   - title: What's next
 
