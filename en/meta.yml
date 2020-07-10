@@ -8,5 +8,6 @@ last_tested: "2020-05-11"
 steps:
   - title: Introduction
   - title: Translate your message
-  - title: 'Challenge: Phrase book'
-  - title: What next?
+  - title: Challenge: Receive a message back
+  - title: What's next
+
