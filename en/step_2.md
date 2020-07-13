@@ -18,7 +18,7 @@ In the `translate`{:class="block3extensions"} blocks "Type your message here" is
 when flag clicked
 set voice to (tenor v) ::tts
 + speak (translate [My own message] to (Arabic v) ::translate) ::tts
-+ say ( translate [My own message] to (Arabic v) ::translate ) for (4) seconds
++ say ( translate [My message] to (Arabic v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
@@ -30,8 +30,8 @@ Choose the language you want to translate your message in to. It's currently set
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [My own message] to (Czech v) ::translate) ::tts
-+ say ( translate [My own message] to (Czech v) ::translate ) for (4) seconds
++ speak (translate [My message] to (Czech v) ::translate) ::tts
++ say ( translate [My message] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
@@ -43,8 +43,8 @@ You may need to change the value of how long your message is shown for.
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-speak (translate [My own message] to [Czech v] ::translate) ::tts
-+ say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message] to [Czech v] ::translate) ::tts
++ say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
 ```
 --- /task ---
 
@@ -55,8 +55,8 @@ If you like, change the voice so it sounds more like you.
 ```blocks3
 when flag clicked
 + set voice to [squeak v] ::tts
-speak (translate [My own message] to [Czech v] ::translate) ::tts
-say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message] to [Czech v] ::translate) ::tts
+say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
 ```
 
 --- /task ---
@@ -81,8 +81,8 @@ Select the **You** sprite, and add a `say Hello for 2 seconds`{:class="block3loo
 ```blocks3
 when flag clicked
 set voice to [squeak v] ::tts
-speak (translate [My own message] to (Czech v) ::translate) ::tts
-say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message] to (Czech v) ::translate) ::tts
+say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
 + say [Hello] for (2) seconds 
 + speak [Hello] ::tts
 ```
@@ -97,8 +97,8 @@ Got to `Translate`{:class="block3extensions"} and add a `translate`{:class="bloc
 ```blocks3
 when flag clicked
 set voice to [squeak v] ::tts
-speak (translate [My own message] to (Czech v) ::translate) ::tts
-say ( translate [My own message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message] to (Czech v) ::translate) ::tts
+say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
 + say (translate [Reply by clicking the other sprite] to (Czech v) ::tts) for (4) seconds 
 + speak (translate [Reply by clicking the other sprite] to (Czech v) ::translate) ::tts
 
