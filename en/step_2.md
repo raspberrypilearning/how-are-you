@@ -1,4 +1,6 @@
-
+If working **online**, open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
+ 
+If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
 You should see two young people - one is you and the other is your friend. Click the green flag and you should see and hear one of the spirtes, speaking in Arabic.
 
@@ -7,13 +9,6 @@ You should see two young people - one is you and the other is your friend. Click
 Think of the person you want to send your message to. We will call that person the 'respondent'. 
 
 What language does the respondent speak?
-
-```blocks3
-when flag clicked
-set voice to (tenor v)
-speak (translate [My own message] to (Arabic v))
-say ( translate [My own message] to (Arabic v)) for (4) seconds
-```
 
 --- task ---
 
