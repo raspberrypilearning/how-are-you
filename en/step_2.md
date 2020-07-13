@@ -16,6 +16,14 @@ In the `translate`{:class="block3extensions"} blocks "Type your message here" is
 
 ```blocks3
 when flag clicked
+when flag clicked
+set voice to (tenor v)
+speak (translate [My own message] to (Arabic v))
+say ( translate [My own message] to (Arabic v)) for (4) seconds
+```
+
+```blocks3
+when flag clicked
 set voice to (tenor v) ::tts
 + speak (translate [My own message] to (Arabic v) ::translate) ::tts
 + say ( translate [My own message] to (Arabic v) ::translate ) for (4) seconds
