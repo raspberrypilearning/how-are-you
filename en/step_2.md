@@ -10,17 +10,16 @@ Think of the person you want to send your message to. We will call that person t
 
 What language does the respondent speak?
 
---- task ---
-
-In the `translate`{:class="block3extensions"} blocks "Type your message here" is written. Type your own messages into each block.
-
 ```blocks3
-when flag clicked
 when flag clicked
 set voice to (tenor v)
 speak (translate [My own message] to (Arabic v))
 say ( translate [My own message] to (Arabic v)) for (4) seconds
 ```
+
+--- task ---
+
+In the `translate`{:class="block3extensions"} blocks "Type your message here" is written. Type your own messages into each block.
 
 ```blocks3
 when flag clicked
