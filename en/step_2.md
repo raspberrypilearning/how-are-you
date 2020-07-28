@@ -8,11 +8,9 @@ You should see two young people - one is you and the other is your friend. Click
 
 Think of the person you want to send your message to. We will call that person the 'respondent'. 
 
-What language does the respondent speak?
-
 --- task ---
 
-In the `translate`{:class="block3extensions"} blocks `type your own message here`.
+Type your own message into both the `translate`{:class="block3extensions"} blocks.
 
 ```blocks3
 when flag clicked
@@ -22,6 +20,8 @@ set voice to (tenor v) ::tts
 ```
 
 --- /task ---
+
+What language does the respondent speak?
 
 --- task ---
 
