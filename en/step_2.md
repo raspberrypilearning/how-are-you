@@ -25,7 +25,7 @@ set voice to (tenor v) ::tts
 
 --- task ---
 
-Choose the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from!
+Choose the language you want to translate your message in to. It's currently set to Czech.  There are 40 languages in Scratch to choose from!
 
 ```blocks3
 when flag clicked
