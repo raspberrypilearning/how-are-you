@@ -12,13 +12,13 @@ What language does the respondent speak?
 
 --- task ---
 
-In the `translate`{:class="block3extensions"} blocks "Type your message here" is written. Type your own messages into each block.
+In the `translate`{:class="block3extensions"} blocks `type your own message here`.
 
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [My own message] to (Arabic v) ::translate) ::tts
-+ say ( translate [My message] to (Arabic v) ::translate ) for (4) seconds
++ speak (translate [type your own message here] to (Czech v) ::translate) ::tts
++ say ( translate [type your own message here] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
