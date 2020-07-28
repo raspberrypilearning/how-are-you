@@ -38,7 +38,7 @@ set voice to (tenor v) ::tts
 
 --- task ---
 
-You may need to change the value of how long your message is shown for to give enough time for it to be read, but no so long that the reader gets bored.
+You may need to change the value of how many seconds your message is shown for. Enough time for it to be read, but not so long that the reader gets bored waiting.
 
 ```blocks3
 when flag clicked
@@ -73,18 +73,16 @@ The respondent wants to reply to your message. Modify the program so they can me
 
 --- task ---
 
-To do this, you will need to attach two extra lines of code to the **You** sprite. The blocks will let the respondent know that they can reply by clicking their sprite. 
+To do this, you will need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks in the block palette.
 
-Select the **You** sprite, and add a `say Hello for 2 seconds`{:class="block3looks"} and a `speak`{:class="block3extensions"} block. You can find these in `Looks`{:class="block3looks"} and `Text to Speech`{:class="block3extensions"}.
-
+Join this new `broadcast message1`{:class="block3events"} block underneath the current code.
 
 ```blocks3
 when flag clicked
 set voice to [squeak v] ::tts
 speak (translate [My message] to (Czech v) ::translate) ::tts
 say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
-+ say [Hello] for (2) seconds 
-+ speak [Hello] ::tts
++ broadcast (message1 v)
 ```
 
 --- /task ---
