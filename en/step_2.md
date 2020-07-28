@@ -98,7 +98,7 @@ Now click on the **Respondent** sprite.
 Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 
 ```blocks3
-when this sprite clicked
+when I receive [message1 v]
 set voice to (squeak v) ::tts
 ask (translate [Type in your message here] to (Czech v) ::translate) and wait
 + say ( translate (answer) to (English v) ::translate ) for (4) seconds
