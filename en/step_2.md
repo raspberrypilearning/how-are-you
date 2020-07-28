@@ -25,7 +25,7 @@ set voice to (tenor v) ::tts
 
 --- task ---
 
-Choose the language you want to translate your message in to. It's currently set to Czech.  There are 40 languages in Scratch to choose from!
+Choose the language you want to translate your message in to. It's currently set to Czech.  There are 40 languages to choose from in Scratch!
 
 ```blocks3
 when flag clicked
@@ -38,7 +38,7 @@ set voice to (tenor v) ::tts
 
 --- task ---
 
-You may need to change the value of how long your message is shown for.
+You may need to change the value of how long your message is shown for to give enough time for it to be read, but no so long that the reader gets bored.
 
 ```blocks3
 when flag clicked
