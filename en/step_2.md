@@ -89,25 +89,6 @@ say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
 
 --- task ---
 
-Got to `Translate`{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks, with the following in to both blocks: "Reply by clicking the other sprite."
-
-
-```blocks3
-when flag clicked
-set voice to [squeak v] ::tts
-speak (translate [My message] to (Czech v) ::translate) ::tts
-say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
-+ say (translate [Reply by clicking the other sprite] to (Czech v) ::tts) for (4) seconds 
-+ speak (translate [Reply by clicking the other sprite] to (Czech v) ::translate) ::tts
-
-```
-
-Don't forget to select the respondent's language again.
-
---- /task ---
-
---- task ---
-
 Now click on the **Respondent** sprite.
 
 --- /task ---
