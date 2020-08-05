@@ -1,8 +1,8 @@
 If working **online**, open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
  
-If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-off){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see two young people - one is you and the other is your friend. Click the green flag and you should see and hear one of the spirtes, speaking in Arabic.
+You should see two young people - one is you and the other is your friend. Click the green flag and you should see and hear one of the spirtes, speaking in Czech.
 
 ## Translate your message
 

@@ -31,7 +31,7 @@ title: What you will need
 + Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
  
 ### Downloads
-+ Download the project [starter file](http://rpf.io/p/en/how-are-you-off){:target="_blank"} if working offline
++ Download the project [starter file](http://rpf.io/p/en/how-are-you-get){:target="_blank"} if working offline
 
 
 --- /collapse ---
