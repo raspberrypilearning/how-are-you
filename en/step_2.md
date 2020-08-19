@@ -1,31 +1,31 @@
 If working **online**, open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
  
-If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-get){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
+If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see two young people - one is you and the other is your friend. Click the green flag and you should see and hear one of the spirtes, speaking in Arabic.
+You should see two young people - one is you and the other is your friend. Click the green flag and you should see and hear one of the spirtes, speaking in Czech.
 
 ## Translate your message
 
 Think of the person you want to send your message to. We will call that person the 'respondent'. 
 
-What language does the respondent speak?
-
 --- task ---
 
-In the `translate`{:class="block3extensions"} blocks "Type your message here" is written. Type your own messages into each block.
+Type your own message into both the `translate`{:class="block3extensions"} blocks.
 
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [My own message] to (Arabic v) ::translate) ::tts
-+ say ( translate [My message] to (Arabic v) ::translate ) for (4) seconds
++ speak (translate [type your own message here] to (Czech v) ::translate) ::tts
++ say ( translate [type your own message here] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
 
+What language does the respondent speak?
+
 --- task ---
 
-Choose the language you want to translate your message in to. It's currently set to Arabic.  There are 40 languages in Scratch to choose from!
+Choose the language you want to translate your message in to. It's currently set to Czech.  There are 40 languages to choose from in Scratch!
 
 ```blocks3
 when flag clicked
@@ -38,7 +38,7 @@ set voice to (tenor v) ::tts
 
 --- task ---
 
-You may need to change the value of how long your message is shown for.
+You may need to change the value of how many seconds your message is shown for. Enough time for it to be read, but not so long that the reader gets bored waiting.
 
 ```blocks3
 when flag clicked
@@ -73,38 +73,17 @@ The respondent wants to reply to your message. Modify the program so they can me
 
 --- task ---
 
-To do this, you will need to attach two extra lines of code to the **You** sprite. The blocks will let the respondent know that they can reply by clicking their sprite. 
+To do this, you will need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks in the block palette.
 
-Select the **You** sprite, and add a `say Hello for 2 seconds`{:class="block3looks"} and a `speak`{:class="block3extensions"} block. You can find these in `Looks`{:class="block3looks"} and `Text to Speech`{:class="block3extensions"}.
-
-
-```blocks3
-when flag clicked
-set voice to [squeak v] ::tts
-speak (translate [My message] to (Czech v) ::translate) ::tts
-say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
-+ say [Hello] for (2) seconds 
-+ speak [Hello] ::tts
-```
-
---- /task ---
-
---- task ---
-
-Got to `Translate`{:class="block3extensions"} and add a `translate`{:class="block3extensions"} into the both these new blocks, with the following in to both blocks: "Reply by clicking the other sprite."
-
+Join this new `broadcast message1`{:class="block3events"} block underneath the current code.
 
 ```blocks3
 when flag clicked
 set voice to [squeak v] ::tts
 speak (translate [My message] to (Czech v) ::translate) ::tts
 say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
-+ say (translate [Reply by clicking the other sprite] to (Czech v) ::tts) for (4) seconds 
-+ speak (translate [Reply by clicking the other sprite] to (Czech v) ::translate) ::tts
-
++ broadcast (message1 v)
 ```
-
-Don't forget to select the respondent's language again.
 
 --- /task ---
 
@@ -119,7 +98,7 @@ Now click on the **Respondent** sprite.
 Choose the language you are most familiar with - the program will translate the respondent's message so you can hear and read it.
 
 ```blocks3
-when this sprite clicked
+when I receive [message1 v]
 set voice to (squeak v) ::tts
 ask (translate [Type in your message here] to (Czech v) ::translate) and wait
 + say ( translate (answer) to (English v) ::translate ) for (4) seconds
