@@ -1,10 +1,10 @@
 ## Introduction
 
-Have you ever wondered how people are feeling but, because you don’t speak their language, you can't ask them? Make an e-card for family, friends or peers across the world who speak a different language. Choose a sprite to represent you speaking in their language.
+Have you ever wondered how people are feeling but, because you don't speak their language, you can't ask them? Make an e-card for family, friends, or peers across the world who speak a different language. Choose a sprite to represent you speaking in their language.
 
 ### What you will make
 
-Click the green flag. When the left-hand sprite stops speaking, click the right-hand sprite to write a reply in the box provided. Then click the blue tick to translate your message.
+Click on the green flag. When the sprite on the left-hand side stops speaking, click on the sprite on the right-hand side to write a reply in the box provided. Then, click on the blue tick to translate your message.
 
 --- no-print ---
 
@@ -25,13 +25,13 @@ Click the green flag. When the left-hand sprite stops speaking, click the right-
 title: What you will need
 ---
 ### Hardware
-+ A Computer or tablet capable of running Scratch
++ A computer or tablet capable of running Scratch
  
 ### Software
 + Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
  
 ### Downloads
-+ Download the project [starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} if working offline
++ If you are working offline, download the [project starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"}
 
 
 --- /collapse ---
@@ -50,7 +50,7 @@ title: What you will learn
 ---
 title: Additional information for educators
 ---
-You can download the completed project [here](http://rpf.io/p/en/how-are-you-get){:target="_blank"}.
+You can [download the completed project here](http://rpf.io/p/en/how-are-you-get){:target="_blank"}.
 
 If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/how-are-you-?/print){:target="_blank"}.
 
