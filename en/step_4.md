@@ -1,6 +1,8 @@
 ## What next?
 
-You have done really well exploring two Scratch extension blocks `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"} blocks, as well as sprites!
+In this project you have:
++ Used the `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"} extensions to create messages in another language.
++ Used a broadcast block so that the respondent can reply to the message they receive.
 
 Why not explore the `Video Sensing`{:class="block3extensions"} block in another Starter project, [Grow a tree](https://projects.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}?
 
