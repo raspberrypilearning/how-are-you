@@ -8,7 +8,7 @@ last_tested: "2020-07-10"
 steps:
   - title: Introduction
   - title: Translate your message
-  - title: "Challenge: receive a message back"
+  - title: "Challenge: phrase book"
     challenge: true  
   - title: What next?
 
