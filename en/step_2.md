@@ -2,7 +2,7 @@
  
 **Offline**: open the [project starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
 
-You should see two young people: one is you, and the other is your friend. Click on the green flag and you should see and hear one of the sprites speaking in Czech.
+You should see two young people: one represents you, and the other represents your friend. Click on the green flag and you should see and hear one of the sprites speaking in Czech.
 
 ## Translate your message
 
@@ -25,7 +25,7 @@ What language does the respondent speak?
 
 --- task ---
 
-Choose the language that you want to translate your message into. It is currently set to Czech. There are 40 languages to choose from in Scratch!
+Choose the language that you want to translate your message into. It is currently set to `Czech`{:class="block3extensions"}. There are 40 languages to choose from in Scratch!
 
 ```blocks3
 when flag clicked
@@ -63,11 +63,11 @@ say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
 
 --- task ---
 
-If you have used Scratch before, or want to try new things, try changing the sprite's costume and the backdrop.
+If you have used Scratch before, or want to try new things, try to change the sprite's costume and the backdrop.
 
 --- /task ---
 
-## Respondent's reply
+## Receive a message back
 
 The respondent wants to reply to your message. Modify the program so that they can send you a message back.
 
@@ -75,7 +75,7 @@ The respondent wants to reply to your message. Modify the program so that they c
 
 To do this, you will need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
 
-Join this new `broadcast message1`{:class="block3events"} block underneath the current code.
+Add this new `broadcast message1`{:class="block3events"} block underneath the current code.
 
 ```blocks3
 when flag clicked
