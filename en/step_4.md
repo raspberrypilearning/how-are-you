@@ -8,6 +8,6 @@ Why not explore the `Video Sensing`{:class="block3extensions"} extension in anot
 
 ## Nine more to go!
 
-There are nine more Scratch extensions to get to know! To begin to explore them, click the **Add Extension** button in the left-hand corner of the screen. The button looks like the example in the image below.
+There are nine more Scratch extensions to get to know! To begin to explore them, click the **Add Extension** button in the bottom left-hand corner of the screen. The button looks like the example in the image below.
 
 ![Extension Blocks tab](images/extension-blocks.png)
