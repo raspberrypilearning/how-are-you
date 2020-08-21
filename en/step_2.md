@@ -73,7 +73,7 @@ The respondent wants to reply to your message. Modify the program so that they c
 
 --- task ---
 
-To do this, you will need to add a `broadcast message1`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
+To do this, you will need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
 
 Add this new `broadcast message1`{:class="block3events"} block underneath the existing code.
 
