@@ -1,10 +1,10 @@
 ## Introduction
 
-Have you ever wondered how people are feeling but, because you don't speak their language, you can't ask them? Make an e-card for family, friends, or peers across the world who speak a different language. Choose a sprite to represent you speaking in their language.
+Have you ever wondered how people are feeling but found it difficult to ask them because you don't speak their language? Make an e-card for family, friends, or peers across the world who speak a different language. Choose a sprite to represent you, and send them a message in their preferred language.
 
 ### What you will make
 
-Click on the green flag. When the sprite on the left-hand side stops speaking, click on the sprite on the right-hand side to write a reply in the box provided. Then, click on the blue tick to translate your message.
+Click on the green flag. When the sprite on the left-hand side stops speaking, click on the sprite on the right-hand side to write a reply in the box displayed. Then, click on the blue tick to translate your message.
 
 --- no-print ---
 
@@ -41,7 +41,7 @@ title: What you will need
 title: What you will learn
 ---
 
-+ How to use two Scratch extension blocks: `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}
++ How to use two Scratch extensions: `Translate`{:class="block3extensions"} and `Text to Speech`{:class="block3extensions"}
 + How to choose a sprite to represent yourself
 
 --- /collapse ---
