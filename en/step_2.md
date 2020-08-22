@@ -1,4 +1,4 @@
-**Translate your message
+## Translate your message
 
 **Online:** open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
  
