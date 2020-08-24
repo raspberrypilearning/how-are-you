@@ -4,6 +4,8 @@ You've done amazingly well exploring two Scratch extension blocks `Translate`{:c
 
 Why not explore the `Video Sensing`{:class="block3extensions"} block in another Starter project [Grow a tree](https://projects.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}?
 
+If you've already completed [Grow a tree](https://projects.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}? then now go on to explore the Look After Yourself Starter projects.
+
 ## Nine more to go!
 
 There are another nine more Scratch extension blocks to get to know! Why not begin to explore them by clicking the extension block tab to the left of the Scratch Project. The tab looks like the example image below.
