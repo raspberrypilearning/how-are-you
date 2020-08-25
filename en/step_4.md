@@ -6,6 +6,6 @@ In this project, you have:
 
 Why not explore another extension, `Video Sensing`{:class="block3extensions"}, in the introductory project, [Grow a tree](https://projects.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}?
 
-If you've already completed [Grow a tree](https://learning-admin.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"} go on to explore [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
+If you've already completed [Grow a tree](https://learning-admin.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}, go on to explore [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
 
 Spotted a mistake? Enjoyed the project? Please let us know! Click the Send feedback button below.
