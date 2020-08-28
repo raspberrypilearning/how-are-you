@@ -6,8 +6,6 @@
 
 You should see two young people: one represents you, and the other represents your friend. Click on the green flag and you should see and hear one of the sprites speaking in Czech.
 
-## Translate your message
-
 Think of the person that you want to send your message to. We will call that person the **respondent**. 
 
 --- task ---
@@ -75,7 +73,7 @@ The respondent wants to reply to your message. Modify the program so that they c
 
 --- task ---
 
-To do this, you will need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
+To do this, you need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
 
 Add this new `broadcast message1`{:class="block3events"} block underneath the existing code.
 
