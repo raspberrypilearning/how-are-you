@@ -73,9 +73,9 @@ The respondent wants to reply to your message. Modify the program so that they c
 
 --- task ---
 
-To do this, you need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu.
+To do this, you need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the **You** sprite's **Code** tab. The `broadcast`{:class="block3events"} block will be used as a trigger in the **Respondent** sprite's program.
 
-Add this new `broadcast message1`{:class="block3events"} block underneath the existing code.
+Join this new `broadcast message1`{:class="block3events"} block underneath the existing code.
 
 ```blocks3
 when flag clicked
@@ -95,7 +95,9 @@ Now, click on the **Respondent** sprite.
 
 --- task ---
 
-Choose the language that you are most familiar with. The program will translate the respondent's message so that you can hear and read it.
+When the **Respondent** sprite receives the `broadcast`{:class="block3events"} message, it triggers the **Respondent** sprite's program to start, with the `when I receive`{:class="block3events"} block.
+
+Type in a reply and choose the language that the respondent is most familiar with. Check that the program will then translate the respondent's message into your chosen language so that you can both read and hear it. You may need to change the number of seconds in the `say`{:class="block3looks"} block, depending on the length of the message.
 
 ```blocks3
 when I receive [message1 v]
