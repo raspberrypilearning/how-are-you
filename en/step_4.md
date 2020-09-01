@@ -7,6 +7,6 @@ In this project, you have:
 Why not explore another Scratch extension, `Video Sensing`{:class="block3extensions"}, in the introductory project, [Grow a tree](https://projects.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}?
 
 
-If you have already completed [Grow a tree](https://learning-admin.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}, try out the [Look After Yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
+If you have already completed [Grow a tree](https://learning-admin.raspberrypi.org/en/projects/grow-a-tree){:target="_blank"}, try out the [Look after yourself](https://projects.raspberrypi.org/en/pathways/look-after-yourself) projects.
 
 Did you enjoy the project? Have you spotted a mistake? Please click the **Send feedback** button below to let us know!
