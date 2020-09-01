@@ -2,9 +2,9 @@ title: "How are you?"
 hero_image: images/introduction.png
 description: Ask someone how they are in a different language and translate their message back to you
 version: 4
-listed: false
-copyedit: false
-last_tested: "2020-07-10"
+listed: true
+copyedit: true
+last_tested: "2020-09-01"
 steps:
   - title: Introduction
   - title: Translate your message
