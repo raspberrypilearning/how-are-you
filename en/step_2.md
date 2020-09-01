@@ -1,12 +1,12 @@
-If working **online**, open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
- 
-If working **offline**, open the project [starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} in the Scratch offline editor. If you need to download and install Scratch, you can find it [here](https://scratch.mit.edu/download){:target="_blank"}.
-
-You should see two young people - one is you and the other is your friend. Click the green flag and you should see and hear one of the spirtes, speaking in Czech.
-
 ## Translate your message
 
-Think of the person you want to send your message to. We will call that person the 'respondent'. 
+**Online:** open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
+ 
+**Offline**: open the [project starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+
+You should see two young people: one represents you, and the other represents your friend. Click on the green flag and you should see and hear one of the sprites speaking in Czech.
+
+Think of the person that you want to send your message to. We will call that person the **respondent**. 
 
 --- task ---
 
@@ -25,7 +25,7 @@ What language does the respondent speak?
 
 --- task ---
 
-Choose the language you want to translate your message in to. It's currently set to Czech.  There are 40 languages to choose from in Scratch!
+Choose the language that you want to translate your message into. It is currently set to `Czech`{:class="block3extensions"}. There are 40 languages to choose from in Scratch!
 
 ```blocks3
 when flag clicked
@@ -38,7 +38,7 @@ set voice to (tenor v) ::tts
 
 --- task ---
 
-You may need to change the value of how many seconds your message is shown for. Enough time for it to be read, but not so long that the reader gets bored waiting.
+You may need to change the value of how many seconds your message is shown for. It should be shown for enough time for it to be read, but not so long that the reader gets bored waiting.
 
 ```blocks3
 when flag clicked
@@ -50,7 +50,7 @@ speak (translate [My message] to [Czech v] ::translate) ::tts
 
 --- task ---
 
-If you like, change the voice so it sounds more like you.
+If you like, change the voice so that it sounds more like you.
 
 ```blocks3
 when flag clicked
@@ -63,19 +63,20 @@ say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
 
 --- task ---
 
-If you have used Scratch before, or want to try new things out, try changing the sprite's costume and the backdrop.
+If you have used Scratch before, or want to try new things, try to change the sprite's costume and the backdrop.
 
 --- /task ---
 
-## Respondent's reply
+## Receive a message back
 
-The respondent wants to reply to your message. Modify the program so they can message you back.
+The respondent wants to reply to your message. Modify the program so that they can send you a message back.
 
 --- task ---
 
-To do this, you will need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks in the block palette to the **You** sprite's **Code tab**. The `broadcast`{:class="block3events"} block will be used as a trigger in the **Respondent** sprite's program.
 
-Join this new `broadcast message1`{:class="block3events"} block underneath the current code.
+To do this, you need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the program in the **You** sprite's **Code** tab. The `broadcast`{:class="block3events"} block will be used as a trigger in the **Respondent** sprite's program.
+
+Join this new `broadcast message1`{:class="block3events"} block underneath the existing code.
 
 ```blocks3
 when flag clicked
@@ -89,17 +90,16 @@ say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
 
 --- task ---
 
-Now click on the **Respondent** sprite.
+Now, click on the **Respondent** sprite.
 
 --- /task ---
 
 --- task ---
 
-When the **Respondent** sprite receives the `broadcast`{:class="block3events"} message it triggers the **Respondent** sprite's program to start with `when I recieve`{:class="block3events"} block.
+When the **Respondent** sprite receives `message1`{:class="block3events"} from the `broadcast message1`{:class="block3events"} block in the **You** sprite's program, it triggers the **Respondent** sprite's program to start, with the `when I receive`{:class="block3events"} block.
 
-Type in a reply message and choose the language that the respondent is most familiar with.
-Check that the program will then translate the respondent's message in to your chosen language so you can both read and hear it.
-You may need to vary the number of seconds in the `say`{:class="block3looks"} block depending on the length of the message.
+Type in a reply and choose the language that the respondent is most familiar with. Check that the program will then translate the respondent's message into your chosen language so that you can both read and hear it. You may need to change the number of seconds in the `say`{:class="block3looks"} block, depending on the length of the message.
+
 
 ```blocks3
 when I receive [message1 v]
