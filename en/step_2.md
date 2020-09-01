@@ -73,6 +73,7 @@ The respondent wants to reply to your message. Modify the program so that they c
 
 --- task ---
 
+
 To do this, you need to add a `broadcast`{:class="block3events"} block from the `Events`{:class="block3events"} blocks menu to the program in the **You** sprite's **Code** tab. The `broadcast`{:class="block3events"} block will be used as a trigger in the **Respondent** sprite's program.
 
 Join this new `broadcast message1`{:class="block3events"} block underneath the existing code.
@@ -99,12 +100,13 @@ When the **Respondent** sprite receives `message1`{:class="block3events"} from t
 
 Type in a reply and choose the language that the respondent is most familiar with. Check that the program will then translate the respondent's message into your chosen language so that you can both read and hear it. You may need to change the number of seconds in the `say`{:class="block3looks"} block, depending on the length of the message.
 
+
 ```blocks3
 when I receive [message1 v]
-set voice to (squeak v) ::tts
-ask (translate [Type in your message here] to (Czech v) ::translate) and wait
+set voice to (alto v) ::tts
++ ask (translate [Type in your message here] to (Czech v) ::translate) and wait
 + say ( translate (answer) to (English v) ::translate ) for (4) seconds
-+ speak (translate (answer) to (English v) ::translate) ::tts
+speak (translate (answer) to (English v) ::translate) ::tts
 ```
 
 --- /task ---
