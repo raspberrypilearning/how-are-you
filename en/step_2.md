@@ -104,7 +104,7 @@ Type in a reply and choose the language that the respondent is most familiar wit
 ```blocks3
 when I receive [message1 v]
 set voice to (alto v) ::tts
-+ ask (translate [Type in your message here] to (Czech v) ::translate) and wait
++ ask (translate [] to (Czech v) ::translate) and wait
 + say ( translate (answer) to (English v) ::translate ) for (4) seconds
 speak (translate (answer) to (English v) ::translate) ::tts
 ```
