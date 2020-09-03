@@ -1,8 +1,12 @@
 ## Translate your message
 
+--- task ---
+
 **Online:** open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
  
 **Offline**: open the [project starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+
+--- /task ---
 
 You should see two young people: one represents you, and the other represents your friend. Click on the green flag and you should see and hear one of the sprites speaking in Czech.
 
@@ -10,13 +14,13 @@ Think of the person that you want to send your message to. We will call that per
 
 --- task ---
 
-Type your own message into both the `translate`{:class="block3extensions"} blocks.
+Type your own message into both the `translate`{:class="block3extensions"} blocks where it says "My message". Leave the text "Type your reply in the box." so that the **respondent** will know what to do next.
 
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [type your own message here] to (Czech v) ::translate) ::tts
-+ say ( translate [type your own message here] to (Czech v) ::translate ) for (4) seconds
++ speak (translate [My message. Type your reply in the box.] to (Czech v) ::translate) ::tts
++ say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
@@ -30,8 +34,8 @@ Choose the language that you want to translate your message into. It is currentl
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [My message] to (Czech v) ::translate) ::tts
-+ say ( translate [My message] to (Czech v) ::translate ) for (4) seconds
++ speak (translate [My message. Type your reply in the box.] to (Czech v) ::translate) ::tts
++ say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
@@ -43,8 +47,8 @@ You may need to change the value of how many seconds your message is shown for. 
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-speak (translate [My message] to [Czech v] ::translate) ::tts
-+ say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message. Type your reply in the box.] to [Czech v] ::translate) ::tts
++ say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (8) seconds
 ```
 --- /task ---
 
@@ -55,8 +59,8 @@ If you like, change the voice so that it sounds more like you.
 ```blocks3
 when flag clicked
 + set voice to [squeak v] ::tts
-speak (translate [My message] to [Czech v] ::translate) ::tts
-say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message. Type your reply in the box.] to [Czech v] ::translate) ::tts
+say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (8) seconds
 ```
 
 --- /task ---
@@ -81,8 +85,8 @@ Join this new `broadcast message1`{:class="block3events"} block underneath the e
 ```blocks3
 when flag clicked
 set voice to [squeak v] ::tts
-speak (translate [My message] to (Czech v) ::translate) ::tts
-say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message. Type your reply in the box.] to (Czech v) ::translate) ::tts
+say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (8) seconds
 + broadcast (message1 v)
 ```
 
@@ -98,13 +102,13 @@ Now, click on the **Respondent** sprite.
 
 When the **Respondent** sprite receives `message1`{:class="block3events"} from the `broadcast message1`{:class="block3events"} block in the **You** sprite's program, it triggers the **Respondent** sprite's program to start, with the `when I receive`{:class="block3events"} block.
 
-Type in a reply and choose the language that the respondent is most familiar with. Check that the program will then translate the respondent's message into your chosen language so that you can both read and hear it. You may need to change the number of seconds in the `say`{:class="block3looks"} block, depending on the length of the message.
+Select an `ask`{:class="block3sensing"} block so that the respondent can reply. Choose the language that the respondent is most familiar with. Check that the program will then translate the respondent's message into your chosen language so that you can both read and hear it. You may need to change the number of seconds in the `say`{:class="block3looks"} block, depending on the length of the message.
 
 
 ```blocks3
 when I receive [message1 v]
 set voice to (alto v) ::tts
-+ ask (translate [Type in your message here] to (Czech v) ::translate) and wait
++ ask (translate [] to (Czech v) ::translate) and wait
 + say ( translate (answer) to (English v) ::translate ) for (4) seconds
 speak (translate (answer) to (English v) ::translate) ::tts
 ```
