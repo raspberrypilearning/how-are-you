@@ -30,8 +30,8 @@ Choose the language that you want to translate your message into. It is currentl
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [My message] to (Czech v) ::translate) ::tts
-+ say ( translate [My message] to (Czech v) ::translate ) for (4) seconds
++ speak (translate [Hi, How are you? Type your reply in the box.] to (Czech v) ::translate) ::tts
++ say ( translate [Hi, How are you? Type your reply in the box.] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
