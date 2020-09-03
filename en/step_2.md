@@ -10,7 +10,7 @@ Think of the person that you want to send your message to. We will call that per
 
 --- task ---
 
-Type your own message into both the `translate`{:class="block3extensions"} blocks.
+Type your own message into both the `translate`{:class="block3extensions"} blocks where it says "My message". Leave "Type your reply in the box." so that the respondent will know what to do next.
 
 ```blocks3
 when flag clicked
