@@ -15,8 +15,8 @@ Type your own message into both the `translate`{:class="block3extensions"} block
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [Hi, How are you? Type your reply in the box.] to (Czech v) ::translate) ::tts
-+ say ( translate [Hi, How are you? Type your reply in the box.] to (Czech v) ::translate ) for (4) seconds
++ speak (translate [My message. Type your reply in the box.] to (Czech v) ::translate) ::tts
++ say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
@@ -30,8 +30,8 @@ Choose the language that you want to translate your message into. It is currentl
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [Hi, How are you? Type your reply in the box.] to (Czech v) ::translate) ::tts
-+ say ( translate [Hi, How are you? Type your reply in the box.] to (Czech v) ::translate ) for (4) seconds
++ speak (translate [My message. Type your reply in the box.] to (Czech v) ::translate) ::tts
++ say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
@@ -43,8 +43,8 @@ You may need to change the value of how many seconds your message is shown for. 
 ```blocks3
 when flag clicked
 set voice to [tenor v] ::tts
-speak (translate [My message] to [Czech v] ::translate) ::tts
-+ say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message. Type your reply in the box.] to [Czech v] ::translate) ::tts
++ say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (8) seconds
 ```
 --- /task ---
 
@@ -55,8 +55,8 @@ If you like, change the voice so that it sounds more like you.
 ```blocks3
 when flag clicked
 + set voice to [squeak v] ::tts
-speak (translate [My message] to [Czech v] ::translate) ::tts
-say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message. Type your reply in the box.] to [Czech v] ::translate) ::tts
+say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (8) seconds
 ```
 
 --- /task ---
@@ -81,8 +81,8 @@ Join this new `broadcast message1`{:class="block3events"} block underneath the e
 ```blocks3
 when flag clicked
 set voice to [squeak v] ::tts
-speak (translate [My message] to (Czech v) ::translate) ::tts
-say ( translate [My message] to (Czech v) ::translate ) for (8) seconds
+speak (translate [My message. Type your reply in the box.] to (Czech v) ::translate) ::tts
+say ( translate [My message. Type your reply in the box.] to (Czech v) ::translate ) for (8) seconds
 + broadcast (message1 v)
 ```
 
