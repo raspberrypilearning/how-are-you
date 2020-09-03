@@ -15,8 +15,8 @@ Type your own message into both the `translate`{:class="block3extensions"} block
 ```blocks3
 when flag clicked
 set voice to (tenor v) ::tts
-+ speak (translate [type your own message here] to (Czech v) ::translate) ::tts
-+ say ( translate [type your own message here] to (Czech v) ::translate ) for (4) seconds
++ speak (translate [Hi, How are you? Type your reply in the box.] to (Czech v) ::translate) ::tts
++ say ( translate [Hi, How are you? Type your reply in the box.] to (Czech v) ::translate ) for (4) seconds
 ```
 
 --- /task ---
