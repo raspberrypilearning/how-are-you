@@ -98,7 +98,7 @@ Now, click on the **Respondent** sprite.
 
 When the **Respondent** sprite receives `message1`{:class="block3events"} from the `broadcast message1`{:class="block3events"} block in the **You** sprite's program, it triggers the **Respondent** sprite's program to start, with the `when I receive`{:class="block3events"} block.
 
-Type in a reply and choose the language that the respondent is most familiar with. Check that the program will then translate the respondent's message into your chosen language so that you can both read and hear it. You may need to change the number of seconds in the `say`{:class="block3looks"} block, depending on the length of the message.
+Select an `ask`{:class="block3sensing"} block so that the respondent can reply. Choose the language that the respondent is most familiar with. Check that the program will then translate the respondent's message into your chosen language so that you can both read and hear it. You may need to change the number of seconds in the `say`{:class="block3looks"} block, depending on the length of the message.
 
 
 ```blocks3
