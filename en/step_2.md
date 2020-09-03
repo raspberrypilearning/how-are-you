@@ -1,8 +1,12 @@
 ## Translate your message
 
+--- task ---
+
 **Online:** open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
  
 **Offline**: open the [project starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+
+--- /task ---
 
 You should see two young people: one represents you, and the other represents your friend. Click on the green flag and you should see and hear one of the sprites speaking in Czech.
 
