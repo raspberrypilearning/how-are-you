@@ -9,8 +9,10 @@ copyedit: true
 last_tested: '2020-09-01'
 steps:
 - title: Introduction
-  completion: internal
 - title: Translate your message
+  completion:
+  - engaged
+  - internal
 - title: 'Challenge: phrase book'
   challenge: true
 - title: What next?
