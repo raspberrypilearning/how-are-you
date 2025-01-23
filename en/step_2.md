@@ -4,7 +4,7 @@
 
 **Online:** open the [starter project](http://rpf.io/how-are-you-on){:target="_blank"} in Scratch.
  
-**Offline**: open the [project starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
+**Offline:** open the [project starter file](http://rpf.io/p/en/how-are-you-go){:target="_blank"} in the Scratch offline editor. If you need to, you can [download and install Scratch here](https://scratch.mit.edu/download){:target="_blank"}.
 
 --- /task ---
 
@@ -14,7 +14,7 @@ Think of the person that you want to send your message to. We will call that per
 
 --- task ---
 
-Type your own message into both the `translate`{:class="block3extensions"} blocks where it says "My message". Leave the text "Type your reply in the box." so that the **respondent** will know what to do next.
+Type your own message into both the `translate`{:class="block3extensions"} blocks where it says `My message.`. Keep the text `Type your reply in the box.` so that the **respondent** will know what to do next.
 
 ```blocks3
 when flag clicked

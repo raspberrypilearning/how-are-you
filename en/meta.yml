@@ -12,7 +12,10 @@ steps:
 - title: Translate your message
   completion:
   - engaged
-  - internal
 - title: 'Challenge: phrase book'
   challenge: true
+  completion:
+  - internal
 - title: What next?
+  completion:
+  - external
