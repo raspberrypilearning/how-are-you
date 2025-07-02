@@ -16,6 +16,5 @@ steps:
   challenge: true
   completion:
   - internal
-- title: What next?
   completion:
   - external
